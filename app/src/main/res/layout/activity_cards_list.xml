@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sd.rittal.app.activities.CardsListActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/layout_fully"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ListView
+                        android:id="@+id/list_view_cards"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </ListView>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_empty"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:onClick="newCard"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tap_her_to_add_new_card"
+                        android:textSize="30sp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <android.support.design.widget.FloatingActionButton
+                android:layout_margin="@dimen/margin_fat_action"
+                android:id="@+id/fab"
+                android:clickable="true"
+                android:onClick="newCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:src="@drawable/ic_add_white_24dp"
+                app:elevation="8dp"
+                app:pressedTranslationZ="16dp" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

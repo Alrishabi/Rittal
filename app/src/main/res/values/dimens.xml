@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_padding">16dp</dimen>
+    <dimen name="toast_padding">16dp</dimen>
+    <dimen name="setting_item_padding">20dp</dimen>
+
+    <dimen name="margin_fat_action">16dp</dimen>
+
+
+    <!--form element -->
+    <dimen name="margin_edit_text">16dp</dimen>
+    <dimen name="padding_edit_text_left_right">16dp</dimen>
+    <dimen name="margin_text_view">8dp</dimen>
+    <dimen name="padding_text_view_left_right">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+</resources>

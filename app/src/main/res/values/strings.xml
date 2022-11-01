@@ -1,0 +1,507 @@
+<resources>
+    <!--<string name="app_name">2018_APP_V1</string>-->
+
+
+    <string name="str_openimg">open picture </string>
+    <string name="str_scan">scanning equipment</string>
+    <string name="str_printword">Print </string>
+    <string name="str_printword_desc">Print GBK, Unicode text encoding</string>
+    <string name="str_printimg">print pictures</string>
+    <string name="str_printimg_desc">Select the picture to print</string>
+    <string name="str_printbarcode">one-dimensional code printing </string>
+    <string name="str_printbarcode_desc">dynamically create a dimensional code printing </string>
+    <string name="str_printqrcode">two-dimensional code printing </string>
+    <string name="str_printqrcode_desc">dynamically create 2D code printing </string>
+    <string name="str_printcmd">send printer instructions </string>
+    <string name="str_printcmd_desc">send a print instruction set other instructions </string>
+    <string name="str_device">device</string>
+    <string name="str_scaning">scanning</string>
+    <string name="str_unconnected">not connected!</string>
+    <string name="str_lose">connection lost!</string>
+    <string name="str_cannotcreatebar">failed to create a one-dimensional code </string>
+    <string name="str_connected">connected </string>
+    <string name="str_disconnected">not connected to </string>
+    <string name="str_connecting">connecting to </string>
+    <string name="str_scanover">scanning is finished!</string>
+    <string name="mode_bt">BT Printer</string>
+    <string name="str_printtext">str_printtext</string>
+    <string name="str_exit">Sure exit and close the equipment?</string>
+    <string name="str_autoprint">Auto Print</string>
+
+
+    <string name="str_printer_state">STATE</string>
+    <string name="str_printer_lowpower">Low power</string>
+    <string name="str_printer_nopaper">No paper</string>
+    <string name="str_printer_bufferfull">Buffer full</string>
+    <string name="str_printer_buffernull">Buffer null</string>
+    <string name="str_printer_hightemperature">High temperature</string>
+
+    <string name="str_custom_instruction">Instruction</string>
+    <string name="button_send_instruction">Send</string>
+
+
+    <string name="language">Language</string>
+    <string name="accessories">Accessories</string>
+    <string name="arabic">عربي</string>
+    <string name="english">English</string>
+
+    <string name="bluetooth_printer">Bluetooth printer</string>
+    <string name="usb_printer">USB printer</string>
+    <string name="S1000_printer">S1000 printer</string>
+    <string name="S1000_card_swipe">S1000 magnetic card swipe</string>
+    <string name="tap_her_to_add_new_card">Tap her to add new card</string>
+    <string name="enter_card_name">Enter card name</string>
+    <string name="card_name">Card Name</string>
+
+    <string name="enter_card_pan">Enter card PAN</string>
+    <string name="card_pan">Card PAN 19 or 16 digits</string>
+
+    <string name="enter_card_expiry_date">Enter card expiry date(YYMM)</string>
+    <string name="enter_card_pin">Enter card IPIN</string>
+    <string name="card_expiry_date">Card Expiry Date</string>
+    <string name="select_color_title">Select color or a card</string>
+    <string name="select_card_color">Select Card Color</string>
+    <string name="save">Save</string>
+    <string name="card_pin">IPIN</string>
+    <string name="inquiry">Inquiry</string>
+    <string name="clear_form">Clear Form</string>
+    <string name="have_otp">Have OTP</string>
+    <string name="use_ne_of_saved_cards"> Use one of saved cards</string>
+    <string name="phone_number">Phone</string>
+    <string name="generate_otp">Generate OTP</string>
+    <string name="generate">Generate</string>
+    <string name="have_not_otp">Haven\'t OTP</string>
+    <string name="phone_ipin">IPIN</string>
+    <string name="confirm_ipin">Confirm IPIN</string>
+    <string name="otp">OTP</string>
+    <string name="generate_ipin">Generate IPIN</string>
+    <string name="generate_otp_hint">A verification code will be sent to your phone number, use it to generate internet PIN (iPIN).</string>
+    <string name="generate_ipin_hint">Enter verification you received on your phone number on OTP field to generate internet PIN (iPIN).</string>
+    <string name="service_provider">Service provider</string>
+    <string name="amount">Amount</string>
+    <string name="title_top_up">Top Up</string>
+    <string name="title_bill_payment">Bill Payment</string>
+    <string name="title_bill_iquery">Bill Inquery</string>
+    <string name="title_generate_voucher">Generate Voucher</string>
+    <string name="other_card_pan">Transfer to card PAN</string>
+    <string name="title_card_to_card_transfer">Card to card transfer</string>
+    <string name="card_pan_length">Sorry\' card pan must contain 16 or 19 digit</string>
+    <string name="card_expiry_date_length">Sorry\' card pan expiry date must contain 4 digits</string>
+    <string name="card_ipin_lengh">Sorry\' card IPIN must contain 4 digites</string>
+    <string name="card_service_provider_unselected">Sorry\'please select Service Provider</string>
+    <string name="phone_number_lenght">Sorry\' card number must contain 10 digits</string>
+    <string name="zain">Zain</string>
+    <string name="mtn">MTN</string>
+    <string name="sudani">Sudani</string>
+    <string name="please_wait">Please Wait …</string>
+    <string name="sdg_hint"><b> SDG</b> </string>
+    <string name="counter_number">Meter Number must contain 11 digits</string>
+    <string name="use_one_of_saved_cards">Use saved cards</string>
+    <string name="seater_numner">Seater Number</string>
+    <string name="acception_type">Acception Type</string>
+    <string name="the_course">The course</string>
+    <string name="generate_vucher">Generate Voucher</string>
+
+
+    <string name="app_name">ريتاpay</string>
+
+
+    <string name="balance_inquery">Balance Inquiry</string>
+    <string name="invoice_number">Invoice Number</string>
+    <string name="e15">E15</string>
+    <string name="high_education">High Education</string>
+    <string name="apply">Apply</string>
+    <string name="electrivity">Electricity</string>
+    <string name="generate_voucher">Send Voucher</string>
+    <string name="purchase">Purchase</string>
+    <string name="my_card">My cards</string>
+    <string name="phone_number_lenght_otp">Sorry\'Phone number must contain 12 digits</string>
+    <string name="enter_phone_number">Sorry\' enter phone number</string>
+    <string name="enter_card_pin_confirm">Sorry Enter IPIN Confirmation</string>
+    <string name="enter_otp">Sorry Enter Verification Code (OTP)</string>
+    <string name="card_ipin_confirm_lengh">Sorry IPIN Confirmation must contain 4 digits</string>
+    <string name="card_otp_lengh">Sorry Verification Code (OTP) must contain 4 digits</string>
+
+    <string name="enter_other_card_pan">Enter to card pan</string>
+    <string name="enter_amount">Please enter amount</string>
+    <string name="transfer">Transfer</string>
+    <string name="just_inquiry">Just Inquiry</string>
+    <string name="invoice_length">Sorry, invoice number must contain 18 digit</string>
+    <string name="enter_invoice_number">Sorry, please enter invoice number</string>
+    <string name="student_name">Student name (English)</string>
+    <string name="enter_meter_number">Sorry\' please enter metar number</string>
+    <string name="title_e15">E15</string>
+    <string name="please_use_249_to_start_phone_number">Please use 249 to start phone number</string>
+    <string name="use_249_to_start_phone_number">Use 249 to start phone number</string>
+    <string name="e15_phone_number_lenght">Sorry\' Please phone number must contain 12 digit</string>
+
+
+    <string name="res_dae"><b>Date :</b></string>
+    <string name="res_pan"><b>Card(PAN) :</b></string>
+    <string name="res_message"><b>Response Message :</b></string>
+    <string name="res_code"><b>Response Code :</b></string>
+    <string name="res_amount"><b>Amount :</b></string>
+    <string name="res_fee"><b>Issuer Fees :</b></string>
+    <string name="res_last_invoice_date"><b>Last Invoice Date :</b></string>
+    <string name="res_unbill_amount"><b>Unbill Amount :</b></string>
+    <string name="res_billed_amount"><b>Bill Amount :</b></string>
+    <string name="res_total_bill_amoun"><b>Total Bill Amount :</b></string>
+    <string name="res_contract"><b>Contract Number :</b></string>
+    <string name="res_phone"><b>Phone Number :</b></string>
+    <string name="res_subscriber_id"><b>Subscriber ID :</b></string>
+    <string name="res_bill_amount"><b>Bill Amount :</b></string>
+    <string name="select_provider">Select opereter</string>
+    <string name="res_to_card"><b>To Card (PAN) :</b></string>
+    <string name="res_operator"><b>Operator :</b></string>
+    <string name="res_voucher_number"><b>Voucher Number :</b></string>
+    <string name="res_voucher_code"><b>Voucher Code :</b></string>
+
+    <string name="res_unit_name"><b>Unit Name :</b></string>
+    <string name="res_service_name"><b>Service Name :</b></string>
+    <string name="res_invoice_expiry_date"><b>Invoice Expiry Date :</b></string>
+    <string name="res_due_amount"><b>Due Amount :</b></string>
+    <string name="res_invoice_status"><b>Invoice Status :</b></string>
+    <string name="res_payer_name"><b>Payer Name :</b></string>
+    <string name="res_reference_id"><b>Invoice Ref :</b></string>
+    <string name="res_receipt_number"><b>ReceiptNumber :</b></string>
+    <string name="res_meter_number"><b>Meter Number :</b></string>
+    <string name="res_customer_name"><b>Customer  :</b></string>
+    <string name="res_units"><b>Units :</b></string>
+    <string name="res_token"><b>Token :</b></string>
+    <string name="res_purchase_amount"><b>Purchase amount :</b></string>
+    <string name="res_rittal_fee"><b>RIttal Fee :</b></string>
+
+    <string name="sudanese_certificate">Sudanese Certificate</string>
+    <string name="arab_certificate">Arab Certificate</string>
+    <string name="certification_type">Certification Type</string>
+    <string name="enter_seater_number">Sorry\' please enter seater number</string>
+    <string name="enter_student_name">Sorry\' please enter student name</string>
+    <string name="canceled_invoice">canceled</string>
+    <string name="new_invoice">pending</string>
+    <string name="paid_invoice">paid</string>
+    <string name="user_name">User Name</string>
+    <string name="user_password">Password</string>
+    <string name="login">Login</string>
+    <string name="confirm_user_password">Confirm password</string>
+    <string name="please_enter_user_name">Please enter user name</string>
+    <string name="please_enter_password">Please enter password</string>
+    <string name="user_name_or_password_was_empty">Sorry, user name or password was empty</string>
+    <string name="user_name_or_password_was_incorect">Sorry, username or password is incorrect</string>
+    <string name="error_in_data_processing">Sorry, Error on Data Processing</string>
+    <string name="error_on_network_connection">Sorry, Error On Network Connection</string>
+    <string name="title_rittal_account">My account</string>
+    <string name="create_new_account">Create new account</string>
+    <string name="report">Report</string>
+    <string name="hint_balance_inquiry">you can inquiry about your cards balance</string>
+    <string name="hint_bill_iquery">You can inquiry about SIM bill</string>
+    <string name="hint_bill_payment">Pay your SIM bills</string>
+    <string name="hint_card_to_card_transfer">Transfer money between cards</string>
+    <string name="hint_e15">Pay E15 invoice and inquiry about it</string>
+    <string name="title_high_education">High education</string>
+    <string name="hint_education">Applay for high education</string>
+    <string name="hint_electricity">Electricity Purchase</string>
+    <string name="hint_generate_voucher">Send money by generating voucher</string>
+    <string name="hint_top_up">Charge your SIM balance</string>
+    <string name="selec_card">Select Card</string>
+    <string name="delete">Delete</string>
+    <string name="full_name">Full name</string>
+    <string name="please_enter_full_name">Please enter full name!</string>
+    <string name="please_enter_phone">Please enter phone number</string>
+    <string name="please_enter_confirm_password">Please enter confirm password</string>
+    <string name="card_layout">Use Rittal Cridet Cards Layout</string>
+    <string name="phone_number_was_existing_befor">Sorry this phone numbe has been used befor</string>
+    <string name="user_name_was_existing_befor">Sorry\' this user name has been used befor</string>
+    <string name="some_thing_error_contact_administrator">Please contact the administrator</string>
+    <string name="profile_user_name">Full name :</string>
+    <string name="profile_code">Code :</string>
+    <string name="home">Home</string>
+    <string name="registration">Registration</string>
+    <string name="setting">Settings</string>
+    <string name="add_card">Add new card</string>
+    <string name="logout">Logout</string>
+    <string name="hint_add_card">Your card data will be saved encrypted locally in the device.</string>
+
+    <string name="cancel">Exit</string>
+    <string name="successfully_trans">Successfully</string>
+    <string name="failer_trans">failed</string>
+    <string name="enter_card_name_length">Sorry card name must contains 4 character at least</string>
+    <string name="update">Update</string>
+    <string name="later">Later</string>
+    <string name="please_update_to_last_version">New version is available, Please update to last version</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="your_ipin_generated">Your ipin has been generated successfully</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="edit">Edit</string>
+    <string name="are_u_sure_delete">Are you sure ?</string>
+    <string name="update_card">Update card info</string>
+    <string name="noInternetConnection">Check your connection</string>
+    <string name="save_this_card">save this card</string>
+    <string name="no_thanks">No,thanks</string>
+    <string name="delete_card">Delete card!</string>
+    <string name="cash_out">Cashout</string>
+    <string name="accountTocard">Transfer from account to card</string>
+    <string name="cardToaccount">Transfer from card to account</string>
+    <string name="knwonGenerateVoucher">Generate voucher known</string>
+    <string name="knownVoucherCashOut">Cashout known voucher </string>
+    <string name="rittal_services">Rittal services</string>
+    <string name="cash_out_disc">You can have cash out from here</string>
+    <string name="recharge_card_disc">You can recharge your card from your account from here</string>
+    <string name="recharge">Recharge</string>
+    <string name="recharge_card_title">Recharge card</string>
+    <string name="recharge_account_disc">You can recharge your account from any card you want</string>
+    <string name="account_recharge">Account recharge</string>
+    <string name="senderName">Sender name</string>
+    <string name="senderID_type">Sender ID type</string>
+    <string name="enter_sender_id_type">ID type</string>
+    <string name="senderID">Sender ID</string>
+    <string name="ID">ID</string>
+    <string name="receiver_name">Receiver name</string>
+    <string name="receiverIdType">Receiver ID type</string>
+    <string name="receiverId">Receiver ID </string>
+    <string name="receiver_phone">Receiver phone number</string>
+    <string name="send">Send</string>
+    <string name="enter_sender_name">Enter the sender name</string>
+    <string name="phone_sender">Sender phone number</string>
+    <string name="_249">+249</string>
+    <string name="sender_info">Sender information</string>
+    <string name="receiver_info">Receiver information</string>
+    <string name="enter_sender_id">Enter sender ID</string>
+    <string name="enter_sender_number">Enter sender phone number</string>
+    <string name="enter_receiver_name">Enter receivre name</string>
+    <string name="enter_receiver_id_type">Enter receiver ID type</string>
+    <string name="enter_receiver_id">Enter receiver ID</string>
+    <string name="enter_receiver_number">Enter receiver phone number</string>
+    <string name="recharge_account_title">Recharge account</string>
+    <string name="knownGenerateVoucher">Known generate voucher</string>
+    <string name="enter_voucher_key">Enter voucher key</string>
+    <string name="voucherKey10digits">Voucher password 10 digits</string>
+    <string name="res_sender_name"><b> Sender name :</b> </string>
+    <string name="res_sender_phone"><b> Sender phone num :</b> </string>
+    <string name="res_rece_name"><b> Receiver name :</b> </string>
+    <string name="res_rece_phone"><b>Receiver phone num : </b> </string>
+    <string name="known_voucher_cashout_disc">you can do knownvoucher cashout from this screen if you have right information</string>
+    <string name="voucher_num">Voucher number</string>
+    <string name="cash_out_voucher">voucher cashout</string>
+    <string name="known_generate_voucher_cashout">Known generate voucher cashout</string>
+    <string name="enter_voucher_num">Enter voucher number</string>
+    <string name="enter_voucher_password">Enter voucher password</string>
+    <string name="generate_voucher_known_disc">You can known generate voucher with no limit for amount</string>
+    <string name="natonal_id">National number</string>
+    <string name="pasport">passport</string>
+    <string name="purchase_electricity">Electricity purchase </string>
+    <string name="inquiry_electricity">Electricity Inquiry</string>
+    <string name="print">Print</string>
+    <string name="copy_right">© Rittal Technology 2019</string>
+    <string name="version">Version</string>
+    <string name="address_label">Address</string>
+    <string name="address_text">Khartoum, Central Market \n Alshahid Mukhtar Sulaiman St, Block(34) Bajafar Building</string>
+    <string name="call_ceneter_label">Customers services</string>
+    <string name="about">About</string>
+    <string name="web_site">Web Site</string>
+    <string name="generate_ipin_to_use_app">Hi\' Dears. Rittal application need to be have IPIN please go to Generate IPIN to get one.</string>
+    <string name="notـsupported">Not supported</string>
+    <string name="reset_pass">Reset password</string>
+    <string name="current_user_password">Current password</string>
+    <string name="forget_password">Forget password?</string>
+    <string name="share">Share</string>
+    <string name="res_4_digits">Last 4 digit :</string>
+    <string name="res_balance">Balance  :</string>
+    <string name="conditions_and_terms">I agree with the rittal </string>
+    <string name="terms_of_service">Terms of service</string>
+    <string name="contract">عقد نقطة بيع تقديم خدمات الدفع الإلكترونى  أنه وبالخرطوم وفي هذا اليوم ..... من شهر .......... عام2019  أبرم هذا العقد بين طرفيه كل من: 1/ شركة ريتال تكنولجى (المحدودة ) وهى شركة محدودة المسئولية مسجلة بموجب قانون الشركات للعام 2015 برقم سجل ش:37401 وهى الطرف ألاول وتعرف فيما بعد ولأغراض هذا العقد بـالطرف الأول أو (ريتال)  2/السيد/ ....................................................................... ويعرف فيما بعد ولاغراض هذا العقد بالطرف الثاني أو (نقطة البيع) حسب السياق. التلفون------------------------------------------------العنوان:-------------------------------- تمهيد : حيث أن ريتال قامت بإعداد مركز بيانات متطور لإطلاق العديد من خدمات الدفع الإلكتروني ومن ثم قامت بتطوير الأنظمة والبرمجيات المتخصصة لتفي بحاجة تطبيقات الدفع الإلكتروني بأنواعها  المختلفة والتي تشمل في الوقت الحالي:- 1-\tالفواتير الإلكترونية لكهرباء الدفع المقدم مع الشركة السودانية لتوزيع الكهرباء. 2-\tالمحفظة الإلكترونية ،خدمة )ريتا ( PAY، وتعمل فى مجال تطبيقات الدفع الإلكتروني المجازة من قبل البنك المركزي علي أجهزة نقاط البيع والشبكة العنكبوتية عبر محول القيود القومي- بنك السودان المركزي - شركة الخدمات المصرفية الإلكترونية. 3-\tإصدار وتوزيع بطاقات المحفظة الإلكترونية مع البنوك التي يتم التعاقد معها من قبل الطرف الأول. 4-\tخدمات شركات الإتصالات والمصارف التي يتم التعاقد معها من قبل الطرف الأول . 5-\tأي خدمة أخري يتم طرحها من قبل الطرف الأول. و حيث أن ريتال قد قامت بإكمال المتطلبات الفنية والقانونية للخدمات المذكورة بعاليه وفقا لمطلوبات الجهات المالكة للخدمة وصولا لتوقيع عقود الخدمة . وحيث أن ريتال ترغب فى تعيين نقاط بيع مقتدرة تتوفر فيها الشروط المطلوبة لتقديم الخدمات المذكورة للجمهور.  وحيث أن الطرف الثانى وبما لديه من مقدرات مالية وفنية يرغب فى التعاقد مع ريتال بصفة نقطة بيع لتقديم الخدمات المذكورة بعاليه. فإن ذلك تم وفقاً للشروط الآتية: 1/ مقدمة: 1-\tيعتبر التمهيد أعلاه جزء لايتجزأ من هذا العقد. 2-\tتعتبر أى شهادات أو تصديقات أو مستندات أو رخص أو أى وثائق أخرى مطلوب تقديمها من أى الطرفين لأغراض تنفيذ هذا العقد جزءاً منه وتقرأ معه. 3-\tيعتبر هذا العقد هو المرجعية الوحيدة بين الطرفين ويلغي ماعداه من إتفاقات أو تفاهمات تكون قد تمت بين الطرفين كتابة أو شفاهة فى أى وقت سابق لإبرامه . 2/  نطاق العقد :  1-\tيغطى هذا العقد البرمجيات المطلقة من قبل ريتال فى  إطار خدمات الدفع المقدم ويشمل ذلك خدمة الكهرباء مع الشركة السودانية لتوزيع الكهرباء  2-\tيشمل ذلك البرمجيات المطلقة من قبل بنك السودان المركزى وشركة الخدمات المصرفية الإلكترونية EBS عبر المحول القومى . 3-\tيشمل ذلك البرمجيات المطلقة من قبل بنك السودان المركزى وشركة الخدمات المصرفية الإلكترونية EBS عبر منظومة الدفع بالموبايل . 4-\tيشمل البرمجيات المطلقة من قبل المصارف وفقا للإتفاقيات الموقعة مع شركة ريتال تكنولوجى وتشمل الوكالة المصرفية وبرمجيات الدفع الإلكترونى .  5-\tلايغطى هذا العقد بأى حال من الأحوال الأعمال الأخرى لدى نقطة البيع . 3/ إلتزامات ريتال : 1-\tتوفير كل المعينات التقنية اللازمة لإطلاق الخدمات مثل عمليات البرمجة اللازمة لتقديم الخدمة للجمهور وتدريب الطرف الثانى أو من ينوب عنه على إستخدام البرمجيات وإدارة البرامج الأساسية للتشغيل حسب متطلبات كل خدمة. 2-\t توفير مركز خدمة عملاء لتقديم الدعم الفني والمساندة ومد الطرف الثاني برقم الخدمة. 3-\t التنسيق مع الجهات مالكة الخدمة فيما يلي منازعات عملاء الطرف الثاني وفقا للنظام والآليات المعلنة من قبل الجهة مالكة الخدمة. 4-\t إدراج بيانات الطرف الثانى ضمن قاعدة بيانات شركة ريتال لتمكينه من تغذية وتتبع الأرصدة متي ما تطلبت الخدمة ذلك. 5-\t فى حالة تقديم خدمات جديدة من جانب ريتال ورغبة الطرف الثانى فى الإستفاده منها يتم الإتفاق عليها وتضاف كملحق لهذا العقد. 6-\tأخطار الطرف الثانى في حالة التوقف المبرمج للخدمة من قبل مقدم الخدمة أو الطرف الأول. 7-\tعمل الدعاية والإعلان للخدمات المطلقة من قبله.  4/إلتزامات الطرف الثانى : 1-\tالإلتزام وإلزام منسوبي  نقطة البيع التابعة له بكافة التوجيهات والضوابط وشروط تقديم الخدمة. 2-\tالإلتزام بعدم تقديم خدمات منافسة للخدمات المعلنة من قبل ريتال حتى ولو لم تكن من ضمن الخدمات المتعاقد عليها. 3-\t الإلتزام بتقديم بيانات مكتملة لنقطة البيع وفق ما تتطلبه ريتال وتحديث البيانات فى حالة تغيير موقع أو إغلاق أو تغيير ملكية نقطة البيع. 4-\tالإلتزام بتقديم الخدمة من خلال النقطة المعتمدة من قبل ريتال فقط. 5-\tالإلتزام بأن تتم المكاتبات بينه وريتال بخطاب رسمى أو عبر البريد الإلكترونى الخاص بريتال ( فقط ) . 6-\tالإلتزام بتقديم الخدمة وفقا للأسعار والمعايير والرسوم المعلنة من قبل الشركة.  7-\tالإلتزام بأخطار ريتال كتابة في حالة تغيير الموقع . 8-\tالإلتزام بأخطار ريتال  في حالة تغيير ملكية نقطة البيع مع مدها بصورة من الاوراق الثبوتية للمالك الجديد. 9-\tدفع الغرامات المطلوبة في حالة اساءه أستخدام الخدمة وعدم الإلتزام بتوفير معدات ومعينات ومطلوبات تقديم الخدمة حسب ما هو محدد من  قبل الجهة مالكة الخدمة  حيث تحسب الغرامة وفقا للضرر. 10-\t الإلتزام بالعمل داخل المنطقة الجغرافية التى تحددها ريتال حسب ماتراه مناسبا .  11-\t يلتزم الطرف الثاني بعدم السعى للحصول علي أو إستخدام الرقم السري للبطاقات ألمصرفية وبطاقات المحفظة الخاصة بالعملاء إطلاقا وفي حال عدم الإلتزام يطبق البند (9) أعلاه. 5/مدة وسريان العقد :  مدة هذا العقد عام تبدأ من تاريخ توقيع الطرفين ويجدد تلقائيا ما لم يخطر أي من الطرفين الطرف الآخر برغبته في إنهاء التعاقد قبل شهر من تأريخ نهاية المدة الأولى أو أى مدة لاحقة. 6/أحكام عامة : 1-\t يتحمل الطرف الثاني منفردا تكلفة معينات تقديم الخدمة من موقع وأجهزة وأثاث وكهرباء.  2-\t يتحمل الطرف الثانى   منفردا اى خسارة مالية أو مسئولية تترتب على خطأ أو أى إهمال من قبله أو من قبل منسوبيه. 3-\t يحق للطرف الاول التعديل والإضافة فى هذا العقد من حيث إضافة أوإلغاء الخدمات أو تحديث متعلقات الخدمات وفقا لما يرده من الجهات مالكة الخدمات . 4-\tيحق للطرف الأول فسخ هذا العقد وإيقاف الخدمة فى حالة إخلال الطرف الثانى بأى من بنود وملحقات العقد وتسوية كل المتعلقات فى فترة أقصاها شهر من تاريخ الفسخ أو الإيقاف. 5-\tتنحصر وكالة الطرف الثانى لريتال فقط فى الخدمة/الخدمات محل هذا العقد وبالتالى لا تعطى الطرف الثانى الحق فى تمثيل الطرف ألأول أو التعاقد بإسمه أو القيام بأى تصرفات قانونية نيابة عنه خلاف تقديم الخدمة محال العقد. 6-\tريتال غير مسؤولة عن اي مطالبات مالية او شكاوي او أى مراجعات تخص الطرف الثاني بعد مرور شهرين. 7-\tوفي حالة عدم إلتزام الطرف الثانى بالتعرفة المحددة من قبل ريتال، يكون لريتال الحق في اتخاذ ماتراه مناسبا من أجراءات بما فى ذلك فسخ العقد مع الرجوع على الطرف الثانى بالتعويضات المناسبة. 8-\t 7/ السرية : يعتبر هذا العقد وكافة المعاملات والإتصالات والمكاتبات التى تتم بموجبه وأى مستندات يتم تبادلها بين الطرفين أو بين أى طرف وجهة أخرى فيما يتعلق بتنفيذ هذا العقد أو أى معلومات وصلت لآى من طرفيه بسبب تنفيذه سرية ولا يجوز لأى من طرفيه أو أى من منسوبيهما فى أى وقت من الأوقات إفشاؤها لأى شخص ثالث إلأ بموافقة الطرف الأخر الكتابية المسبقة أو وفقاً لقانون سارى المفعول.</string>
+    <string name="answer">Answer</string>
+    <string name="security_qu">Security question</string>
+    <string name="select_question">-Select question-</string>
+    <string name="best_friend">Name of your best friend?</string>
+    <string name="please_select_quesition">please select a security question</string>
+    <string name="please_enter_answer">Please answer the question</string>
+    <string name="please_check_passwords">passwords dose not much</string>
+    <string name="password_eate_characters">Sorry, Password must be at least 8 characters</string>
+    <string name="at_lest_8">at least 8 character</string>
+    <string name="please_read_terms">Please agree to the terms of service first</string>
+    <string name="please_enter_valid_phone">Sorry, Phone number must contain 10 digits</string>
+    <string name="pass_reset_successfully">Password has been reset successfully</string>
+    <string name="error_tryagain">Error..tryagain</string>
+    <string name="your_answer_incurrect">Your answer of security question is incorrect</string>
+    <string name="user_not_found">User name not found</string>
+    <string name="electricity_fee">from card fee : 3 SDG</string>
+    <string name="electricity_account_fee">from rittal account fee : 2 SDG</string>
+    <string name="card_to_card_fee">fee 1 SDG</string>
+    <string name="hint_e15_fee">fee 1 SDG</string>
+    <string name="generate_voucher_fee">fee 1 SDG + 0.004 from amount</string>
+    <string name="cash_out_fee"><![CDATA[fee 5 SDG if amount < 501 SDG  and 1% if amount>500 SDG]]></string>
+    <string name="recharge_account_fee">fee 4 SDG</string>
+    <string name="recharge_card_fee">fee 5 SDG</string>
+    <string name="generate_voucher_known_fee">fee 1 SDG and 0.004%</string>
+    <string name="known_voucher_cashout_fee">fee 12%</string>
+
+
+    <string-array name="language_options">
+        <item>Arabic</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="rittal_app_services">
+        <item>  إنشاء رقم الانترنت السري\
+            هو الرقم السري المطلوب للاستفاده من جميع الخدمات المقدمة من قبل التطبيق\
+مقدم بواسطة شركة الخدمات المصرفية الالكترونية السودانية\
+عمولة 0
+        </item>
+        <item>إستعلام عن الرصيد\
+        تمكنك هذه الخدمة من الاستعلام عن رصيد حسابك البنكي وحساب ريتال\
+مقدم بواسطة شركة الخدمات المصرفيةالالكترونية السودانية وشركة ريتال\
+عمولة 0
+</item>
+        <item>إضافة بطاقة\
+        تمكنك هذه الخدمة من حفظ البطاقات التي تقوم باستخدامها دائما لتسهيل وتسريع عملية الادخال\
+مقدمة بواسطة شركة ريتال\
+            عمولة 0
+</item>
+        <item>حسابي\
+
+        تمكنك من إنشاء حساب لدى ريتال وإدارتة والاستفادة من الخدمات المقدمة داخل الحساب "تغذية حساب ريتال, تغذية بطاقة مصرفية..إلخ\
+مقدمة بواسطة شركة ريتال\
+            عموله 0
+</item>
+        <item>دفع فواتير\
+        تمكنك هذة الخدمه من دفع فواتير الهاتف لكل الشبكات
+مقدم بواسطة شركةريتال\
+عمولة 0
+</item>
+        <item>الكهرباء\
+        يمكنك شراء الكهرباء من البطاقة او الحساب\
+مقدمة بواسطة شركة ريتال\
+عمولة 2 جنية (من حساب ريتال)\
+عمولة 3 جنية (من البطاقة)
+</item>
+        <item>تحويل من بطاقة لبطاقة\
+        يمكنك التحويل بين البطاقات البنكية المختلفة\
+مقدم بواسطة شركة الخدمات المصرفية الالكترونية السودانية\
+عمولة 1 جنية
+</item>
+        <item>شحن الرصيد\
+            تمكنك من شحن رصيد الهاتف كل الشبكات \
+مقدم بواسطة شركة الخدمات المصرفية الالكترونية السودانية\
+عمولة 0
+        </item>
+        <item>التعليم العالي\
+         تمكنك خدمة التعليم العالي من سداد رسوم استمارة التقديم للجامعات\
+مقدم بواسطة شركة الخدمات المصرفية الالكترونية السودانية\
+عمولة
+</item>
+        <item>اورنيك 15\
+        يمكن تسديد جميع الرسوم الحكومية او الاستعلام عن اي إيصال حكومي\
+مقدم بواسطة شركة ريتال\
+عمولة 1 جنية
+</item>
+        <item>إستعلام عن فواتير\
+        يمكن الاستعلام عن فاتورة الهاتف لكل الشبكات\
+مقدم بواسطة شركة الخدمات المصرفية الالكترونية السودانية\
+عمولة 0 جنية
+</item>
+        <item>إرسال حوالة\
+        هي عملية ارسال مبلغ لشخص لا يملك حساب مصرفي او بطاقة الكترونية\
+مقدم بواسطة شركة الخدمات المصرفية الالكترونية السودانية.\
+عمولة 1 جنية\
+عمولة 0.004% جنية
+</item>
+        <item>صرف نقدية\
+            هي عملية صرف مبلغ معين لشخص لديه بطاقة مصرفية ,يتم سحب المبلغ المراد صرفه من البطاقة لحساب نقطة البيع \
+            مقدمة بواسطة شركة ريتال\
+عمولة 10 جنية في حالة المبلغ اقل من 501 جنية\
+5% المبلغ اكثر من 500 جنية\
+
+</item>
+        <item>شحن الحساب\
+
+            يمكنك شحن حساب ريتال من اي بطاقة مصرفية.\
+            مقدمة بواسطة شركة ريتال\
+عمولة  4جنية
+</item>
+        <item>شحن البطاقة\
+        شحن البطاقة
+يمكن تغذية اي بطاقة مصرفية من حساب ريتال\
+مقدمة بواسطة شركة ريتال\
+عمولة 6 جنية
+</item>
+        <item>إرسال حوالة معلومة\
+هي عملية ارسال مبلغ غير محدد السقف لاي شخص لا يملك حساب مصرفي او بطاقة إلكترونية يجب حفظ بيانات الحوالة جيدا الشركة غير مسؤولة عن ضياع بيانات الاستلام\
+مقدم بواسطة شركة ريتال\
+عمولة 1 جنية و 0.004%
+</item>
+        <item>صرف حوالة معلومة\
+        هي عملية صرف مبلغ الحوالة المعلومة من اي نقطة بيع لصالح حساب النقطة بواسطة بيانات المستلم ورقم الحوالة وكلمة السر \
+مقدم بواسطة ريتال\
+عمولة 12%
+</item>
+    </string-array>
+    <string name="user_manual">User manual for help you to use Rittal app</string>
+    <string name="user_manual_lable">User manual</string>
+    <string name="this_version_is_out_of_date_you_must_update_it_immediately">This version is out of date please update to last version</string>
+    <string name="old_password">Old password?</string>
+    <string name="qustion">Question</string>
+    <string name="sign_up">Sign up</string>
+    <string name="favourite">Favourite \n contact</string>
+    <string name="tap_her_to_add_new_contact">Tap here to add new beneficiary</string>
+    <string name="ok">OK</string>
+    <string name="k_w">K/W</string>
+    <string name="res_last4_digits"><b>Last 4 digits:</b></string>
+    <string name="res_meter_fees"><b> Meter fee :</b> </string>
+    <string name="res_water_fees"><b>Water fee : </b> </string>
+    <string name="res_operater_message">Operater message:</string>
+    <string name="res_net_amount">Net amount:</string>
+    <string name="res_account_number">Account number:</string>
+    <string name="hint_special_payment">Special payment</string>
+    <string name="provider_id">Provider ID</string>
+    <string name="special_payment">Special paymnet</string>
+    <string name="res_form_no">Form NO:</string>
+    <string name="studant_name">Student name:</string>
+    <string name="pay">Pay</string>
+    <string name="edu_form">High Education Form</string>
+    <string name="set_number">Seat Num:</string>
+    <string name="res_invoice_num">Invoice NO:</string>
+    <string name="continues">continue</string>
+    <string name="rittal_account_not_working_now">Sorry rittal account not working now</string>
+    <string name="login_first">Sorry, Please login to your account and try again</string>
+    <string name="wellcome">Wellcome ,</string>
+    <string name="registration_successfully">Registration completed successfully</string>
+    <string name="enter_voucher_number">Sorry, Please enter voucher number</string>
+    <string name="voucher_number_length">Sorry, voucher number must contain at least 10 digit</string>
+    <string name="are_you_invited">Are you invited by someone else?</string>
+    <string name="invitation_code">Invitation code</string>
+    <string name="show_pass_hint">Show password</string>
+    <string name="hide_pass_hint">Hide password</string>
+    <string name="res_unit_price"><b>Unit price :</b></string>
+    <string name="soon">Soon..</string>
+    <string name="save_card">Save card</string>
+    <string name="are_u_sure">Are you sure of the card number?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="are_u_sure_of_phone_num">Are you sure of this phone number?</string>
+    <string name="are_u_sure_of_meter_num">Are you sure of this meter number?</string>
+    <string name="please_write_the_invitation_code">Please write invitation code</string>
+    <string name="res_meter_arrear"><b>Meter Arrear : </b> </string>
+    <string name="card_saved">Congratulations,The card was saved successfully</string>
+    <string name="card_didnot_saved">Sorry,card did\'t save successfully</string>
+    <string name="connect_success">CONNECT_SUCCESS</string>
+    <string name="beneficiary_list">My favourite</string>
+    <string name="card_update_successfully">Card update successfully</string>
+    <string name="card_did_not_update_successfully">Sorry,card info did not update successfully</string>
+    <string name="start_with_zero">09 or 01</string>
+    <string name="check_the_invitaion_code">Check the invitation code that you enter it!</string>
+    <string name="full_name_atleast">Full name must at least have three name!</string>
+    <string name="security_qu_check">Please choose a security question!</string>
+    <string name="answer_check">Sorry, write a security question answer</string>
+    <string name="agree_with_condtion">Sorry, you need to agree with terms and condition!</string>
+    <string name="fill_invition_code">Fill an invitation code!</string>
+    <string name="just_english" translatable="false">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789</string>
+    <string name="password_not_match">Sorry, the password does not match</string>
+    <string name="beneficiary_name">Beneficiary name</string>
+    <string name="enter_beneficiary_name">Enter Beneficiary name</string>
+    <string name="beneficiary_type">Beneficiary type</string>
+    <string name="beneficiary_number">Beneficiary number</string>
+    <string name="enter_beneficiary_number">Enter beneficiary number</string>
+    <string name="add_beneficiary">add_beneficiary</string>
+
+
+</resources>

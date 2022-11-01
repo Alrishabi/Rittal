@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sd.rittal.app.activities.GenerateOTPActivit">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+        <LinearLayout
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shadow_shape">
+            <TextView
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/generate_otp_hint"
+                />
+
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="@dimen/activity_padding">
+
+
+                <android.support.v4.view.ViewPager
+                    android:visibility="gone"
+                    android:id="@+id/myviewpager"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_gravity="center" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp">
+
+                        <EditText
+                            android:id="@+id/et_card_pan"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:inputType="number"
+                            android:lines="1"
+                            android:maxLength="19"
+                            android:gravity="center"
+                            android:layout_marginTop="@dimen/margin_edit_text"
+                            android:paddingStart="@dimen/padding_edit_text_left_right"
+                            android:paddingEnd="@dimen/padding_edit_text_left_right"
+                            android:background="@drawable/border_edit_text"
+                            android:hint="@string/enter_card_pan"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/padding_text_view_left_right"
+                            android:layout_marginEnd="@dimen/padding_text_view_left_right"
+                            android:layout_marginTop="@dimen/margin_text_view"
+                            android:background="@drawable/label_shape"
+                            android:paddingLeft="2dp"
+                            android:paddingRight="2dp"
+                            android:text="@string/card_pan"
+                            android:textStyle="bold|italic"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp">
+
+                        <EditText
+                            android:id="@+id/et_card_expiry_date"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:inputType="number"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false"
+                            android:gravity="center"
+                            android:lines="1"
+                            android:layout_marginTop="@dimen/margin_edit_text"
+                            android:paddingStart="@dimen/padding_edit_text_left_right"
+                            android:paddingEnd="@dimen/padding_edit_text_left_right"
+                            android:background="@drawable/border_edit_text"
+                            android:hint="@string/enter_card_expiry_date"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/padding_text_view_left_right"
+                            android:layout_marginEnd="@dimen/padding_text_view_left_right"
+                            android:layout_marginTop="@dimen/margin_text_view"
+                            android:background="@drawable/label_shape"
+                            android:paddingLeft="2dp"
+                            android:paddingRight="2dp"
+                            android:text="@string/card_expiry_date"
+                            android:textStyle="bold|italic"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp">
+
+                        <EditText
+                            android:id="@+id/et_phone"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:inputType="phone"
+                            android:gravity="center"
+                            android:lines="1"
+                            android:layout_marginTop="@dimen/margin_edit_text"
+                            android:paddingStart="@dimen/padding_edit_text_left_right"
+                            android:paddingEnd="@dimen/padding_edit_text_left_right"
+                            android:background="@drawable/border_edit_text"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/padding_text_view_left_right"
+                            android:layout_marginEnd="@dimen/padding_text_view_left_right"
+                            android:layout_marginTop="@dimen/margin_text_view"
+                            android:background="@drawable/label_shape"
+                            android:paddingLeft="2dp"
+                            android:paddingRight="2dp"
+                            android:text="@string/phone_number"
+                            android:textStyle="bold|italic"/>
+                    </RelativeLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/use_249_to_start_phone_number"/>
+
+                    <Button
+                        android:id="@+id/btn_generate_otp"
+                        android:layout_marginTop="30dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/generate_otp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/ripple_effect"/>
+                    <LinearLayout
+                        android:onClick="goToGenerateIPIN"
+                        android:paddingTop="@dimen/activity_padding"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="end"
+                        >
+                        <TextView
+                            android:onClick="goToGenerateIPIN"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/have_otp"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="16sp"
+                            android:textStyle="bold|italic"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+</LinearLayout>

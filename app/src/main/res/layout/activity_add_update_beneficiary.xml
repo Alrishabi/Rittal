@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sd.rittal.app.activities.AddUpdateCard">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+        <LinearLayout
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shadow_shape">
+            <TextView
+                android:visibility="gone"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold|italic"
+                android:textSize="18sp"
+                android:text="Add New Card"
+                />
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:text="@string/hint_add_card"
+                android:layout_marginBottom="16dp"
+                />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="@dimen/activity_padding">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp">
+
+                        <EditText
+                            android:id="@+id/et_beneficiary_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="@dimen/margin_edit_text"
+                            android:paddingStart="@dimen/padding_edit_text_left_right"
+                            android:lines="1"
+                            android:paddingEnd="@dimen/padding_edit_text_left_right"
+                            android:background="@drawable/border_edit_text"
+                            android:hint="@string/enter_beneficiary_name"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/padding_text_view_left_right"
+                            android:layout_marginEnd="@dimen/padding_text_view_left_right"
+                            android:layout_marginTop="@dimen/margin_text_view"
+                            android:background="@drawable/label_shape"
+                            android:paddingLeft="2dp"
+                            android:paddingRight="2dp"
+                            android:text="@string/beneficiary_name"
+                            android:textStyle="bold|italic"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp">
+
+                        <Spinner
+                            android:id="@+id/sp_beneficiary_type"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:lines="1"
+                            android:gravity="center"
+                            android:layout_marginTop="@dimen/margin_edit_text"
+                            android:paddingStart="@dimen/padding_edit_text_left_right"
+                            android:paddingEnd="@dimen/padding_edit_text_left_right"
+                            android:background="@drawable/border_edit_text"
+                            android:hint="@string/enter_card_pan"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/padding_text_view_left_right"
+                            android:layout_marginEnd="@dimen/padding_text_view_left_right"
+                            android:layout_marginTop="@dimen/margin_text_view"
+                            android:background="@drawable/label_shape"
+                            android:paddingLeft="2dp"
+                            android:paddingRight="2dp"
+                            android:text="@string/beneficiary_type"
+                            android:textStyle="bold|italic"/>
+                    </RelativeLayout><RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp">
+
+                        <EditText
+                            android:id="@+id/et_beneficiary_value"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:inputType="number"
+                            android:lines="1"
+                            android:maxLength="19"
+                            android:gravity="center"
+                            android:layout_marginTop="@dimen/margin_edit_text"
+                            android:paddingStart="@dimen/padding_edit_text_left_right"
+                            android:paddingEnd="@dimen/padding_edit_text_left_right"
+                            android:background="@drawable/border_edit_text"
+                            android:hint="@string/enter_beneficiary_number"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/padding_text_view_left_right"
+                            android:layout_marginEnd="@dimen/padding_text_view_left_right"
+                            android:layout_marginTop="@dimen/margin_text_view"
+                            android:background="@drawable/label_shape"
+                            android:paddingLeft="2dp"
+                            android:paddingRight="2dp"
+                            android:text="@string/beneficiary_number"
+                            android:textStyle="bold|italic"/>
+                    </RelativeLayout>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#CACACA" />
+                    <Button
+                        android:id="@+id/btn_add_update"
+                        android:layout_marginTop="30dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/save"
+                        android:textColor="@color/white"
+                        android:background="@drawable/ripple_effect"/>
+                    <LinearLayout
+                        android:paddingTop="@dimen/activity_padding"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="end"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/clear_form"
+                            android:textColor="@color/flamingo"
+                            android:textSize="16sp"
+                            android:textStyle="bold|italic"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

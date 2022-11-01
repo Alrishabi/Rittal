@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:elevation="16dp"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/respons_dialog_shape"
+        android:orientation="vertical"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/iv_success"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/successfully"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/iv_faild"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/faild"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/tv_success"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/successfully_trans"
+                        android:textColor="@color/successfully"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/tv_faild"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/failer_trans"
+                        android:textColor="@color/failer"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/response_service"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#000"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/res_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/res_dae"
+                        android:textColor="#000" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:visibility="gone"
+                            android:id="@+id/res_pan_titel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/res_pan"
+                            android:textColor="#000" />
+                        <TextView
+                            android:visibility="gone"
+                            android:id="@+id/res_pan"
+                            android:textDirection="ltr"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#000" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/res_meter_number"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/res_meter_number"
+                        android:textColor="#000" />
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/res_customer_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/res_customer_name"
+                        android:textColor="#000" />
+
+
+
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/res_operator"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/res_operator"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/res_unit_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/res_unit_name"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/res_service_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/res_service_name"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/res_invoice_expiry_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/res_invoice_expiry_date"
+                        android:textColor="#000" />
+
+
+
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/res_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/res_phone"
+                        android:textColor="#000" />
+
+                    <TextView android:visibility="gone"
+                        android:id="@+id/res_contract"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/res_contract"
+                        android:textColor="#000" />
+
+                    <TextView android:visibility="gone"
+                        android:id="@+id/res_subscriber_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/res_subscriber_id"
+                        android:textColor="#000" />
+
+                    <TextView android:visibility="gone"
+                        android:id="@+id/res_total_bill_amount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/res_total_bill_amoun"
+                        android:textColor="#000" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView android:visibility="gone"
+                            android:id="@+id/res_bill_amount_titel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/res_bill_amount"
+                            android:textColor="#000" />
+                        <TextView android:visibility="gone"
+                            android:textDirection="ltr"
+                            android:id="@+id/res_bill_amount"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textColor="#000" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:visibility="gone"
+                            android:id="@+id/res_token_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/res_token"
+                            android:textStyle="bold"
+                            android:textColor="#000" />
+                        <TextView
+                            android:visibility="gone"
+                            android:id="@+id/res_token"
+                            android:textDirection="rtl"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textStyle="bold"
+                            android:textColor="#000" />
+                    </LinearLayout>
+
+                    <TextView android:visibility="gone"
+                        android:id="@+id/res_billed_amount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/res_billed_amount"
+                        android:textColor="#000" />
+
+                    <TextView android:visibility="gone"
+                        android:id="@+id/res_unbill_amount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/res_unbill_amount"
+                        android:textColor="#000" />
+
+                    <TextView android:visibility="gone"
+                        android:id="@+id/res_last_invoice_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/res_last_invoice_date"
+                        android:textColor="#000" />
+                    <TextView android:visibility="gone"
+                        android:id="@+id/res_last_4digit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/res_4_digits"
+                        android:textColor="#000" />
+                    <TextView android:visibility="gone"
+                        android:id="@+id/res_receipt_number"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/res_receipt_number"
+                        android:textColor="#000" />
+
+
+
+                    <TextView android:visibility="gone"
+                        android:id="@+id/res_amount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/res_amount"
+                        android:textColor="#000" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView android:visibility="gone"
+                            android:id="@+id/res_to_card_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/res_to_card"
+                            android:textColor="#000" />
+                        <TextView
+                            android:visibility="gone"
+                            android:id="@+id/res_to_card"
+                            android:textDirection="ltr"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textColor="#000" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/res_water_fees"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/res_water_fees"
+                        android:textColor="#000" />
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/res_meter_arrear"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/res_meter_arrear"
+                        android:textColor="#000" />
+
+                    <TextView android:visibility="gone"
+                        android:id="@+id/res_due_amount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/res_due_amount"
+                        android:textColor="#000" />
+
+                    <TextView android:visibility="gone"
+                        android:id="@+id/res_invoice_status"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/res_invoice_status"
+                        android:textColor="#000" />
+
+                    <TextView android:visibility="gone"
+                        android:id="@+id/res_payer_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/res_payer_name"
+                        android:textColor="#000" />
+
+                    <TextView android:visibility="gone"
+                        android:id="@+id/res_reference_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/res_reference_id"
+                        android:textColor="#000" />
+                    <TextView android:visibility="gone"
+                        android:id="@+id/res_purchase_amount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/res_purchase_amount"
+                        android:textColor="#000" />
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/res_units"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/res_units"
+                        android:textColor="#000" />
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/res_unit_price"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/res_unit_price"
+                        android:textColor="#000" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView android:visibility="gone"
+                            android:id="@+id/res_fee_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/res_fee"
+                            android:textColor="#000" />
+                        <TextView android:visibility="gone"
+                            android:id="@+id/res_fee"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textColor="#000" />
+                    </LinearLayout>
+
+
+
+                    <TextView android:visibility="gone"
+                        android:id="@+id/res_rittal_fee"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/res_rittal_fee"
+                        android:textColor="#000" />
+
+                    <TextView android:visibility="gone"
+                        android:id="@+id/res_s_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/res_sender_name"
+                        android:textColor="#000" />
+
+
+
+                    <TextView android:visibility="gone"
+                        android:id="@+id/res_s_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/res_sender_phone"
+                        android:textColor="#000" />
+                    <TextView android:visibility="gone"
+                        android:id="@+id/res_last4_digits"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/res_last4_digits"
+                        android:textColor="#000" />
+
+                    <TextView android:visibility="gone"
+                        android:id="@+id/res_r_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/res_rece_name"
+                        android:textColor="#000" />
+
+                    <TextView android:visibility="gone"
+                        android:id="@+id/res_r_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/res_rece_phone"
+                        android:textColor="#000" />
+
+                    <TextView android:visibility="gone"
+                        android:id="@+id/res_voucher_number"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/res_voucher_number"
+                        android:textColor="#000" />
+                    <TextView android:visibility="gone"
+                        android:id="@+id/res_voucher_code"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/res_voucher_code"
+                        android:textColor="#000" />
+
+                    <TextView android:visibility="gone"
+                        android:id="@+id/res_code"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/res_code"
+                        android:textColor="#000" />
+
+
+                    <TextView android:visibility="gone"
+                        android:id="@+id/res_message"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/res_message"
+                        android:textColor="#000" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <Button
+                            android:id="@+id/btn_print"
+                            android:visibility="gone"
+                            android:layout_width="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:textColor="@color/warning_dark"
+                            android:text="@string/print"/>
+                        <Button
+                            android:visibility="gone"
+                            android:id="@+id/btn_send"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/send"
+                            android:background="@android:color/transparent"
+                            android:textColor="@color/success_dark"
+                            android:textStyle="bold"
+                            />
+
+                        <Button
+                            android:id="@+id/btn_share"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/share"
+                            android:background="@android:color/transparent"
+                            android:textColor="@color/peacock"
+                            android:textStyle="bold"
+                            />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

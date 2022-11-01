@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "184665724689",
+    "firebase_url": "https://rittal-consumer.firebaseio.com",
+    "project_id": "rittal-consumer",
+    "storage_bucket": "rittal-consumer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184665724689:android:6841d69772f320ab",
+        "android_client_info": {
+          "package_name": "sd.rittal.consumer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184665724689-d1s9tsm6kqfevrctq61hr6pmeiqm4th6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUIeHPrnY5jcarHv4Jo1ddpvnfmTJIa6U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "184665724689-d1s9tsm6kqfevrctq61hr6pmeiqm4th6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

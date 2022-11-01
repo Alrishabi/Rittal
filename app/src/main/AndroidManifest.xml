@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="sd.rittal.app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".AppApplication"
+        android:allowBackup="false"
+        tools:replace="android:allowBackup"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.BeneficiaryListActivity"></activity>
+        <activity android:name=".activities.AddUpdateBeneficiary"></activity>
+        <activity android:name=".activities.ForceUpdateActivity" />
+        <activity android:name=".activities.TermsAndConditionActivity" />
+        <activity android:name=".activities.ListViewActivity" />
+        <activity android:name=".activities.ResetPassowrdActivity" />
+        <activity android:name=".activities.KnownGenerateVoucherCashout" />
+        <activity android:name=".activities.KnownGenerateVoucher" />
+        <activity android:name=".activities.AccountRechargeFromCard" />
+        <activity android:name=".activities.CardRechargeFromAccount" />
+        <activity android:name=".activities.CashoutActivity" />
+        <activity android:name=".activities.CardsListActivity" />
+        <activity android:name=".activities.PrintActivity" />
+        <activity android:name=".activities.PrintBarCodeActivity" />
+        <activity android:name=".activities.PrintCmdActivity" />
+        <activity android:name=".activities.PrintImageActivity" />
+        <activity android:name=".activities.PrintQrCodeActivity" />
+        <activity android:name=".activities.PrintSettingActivity" />
+        <activity android:name=".activities.PrintTextActivity" />
+        <activity android:name=".activities.SettingActivity" />
+        <activity android:name=".activities.LanguageOptionsActivity" />
+        <activity android:name=".activities.AccessoriesActivity" />
+        <activity android:name=".activities.AddUpdateCard" />
+        <activity android:name=".activities.SpalchActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.HomeActivity" />
+        <activity android:name=".activities.BalanceInquiryActivity" />
+        <activity android:name=".activities.GenerateOTPActivit" />
+        <activity android:name=".activities.GenerateIPINActivity" />
+        <activity android:name=".activities.BillInquiryActivity" />
+        <activity android:name=".activities.BillPaymentActivity" />
+        <activity android:name=".activities.TopUpActivity" />
+        <activity android:name=".activities.CardToCardTransferActivity" />
+        <activity android:name=".activities.EducationActivity" />
+        <activity android:name=".activities.Electricity_activity" />
+        <activity android:name=".activities.E15Activity" />
+        <activity android:name=".activities.GenerateVoucherActivity" />
+        <activity android:name=".activities.MainActivity" />
+        <activity android:name=".activities.LoginActivity" />
+        <activity android:name=".activities.RegistrationActivity" />
+        <activity android:name=".activities.ReportActivity" />
+        <activity android:name=".activities.ProfileActivity" />
+        <activity android:name=".activities.AboutActivity" />
+        <activity android:name=".activities.UserManualActivity" />
+        <activity android:name=".activities.ServicePaymentActivity" />
+
+        <service android:name=".notificationModule.RittalFirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".notificationModule.RittalFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

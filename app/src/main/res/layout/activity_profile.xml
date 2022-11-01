@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="sd.rittal.app.activities.ProfileActivity">
+    <android.support.v7.widget.Toolbar
+        android:elevation="16dp"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:weightSum="5"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_weight="3"
+                    android:background="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_marginTop="32dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qr_code_shape">
+                    <ImageView
+
+                        android:layout_margin="32dp"
+                        android:id="@+id/iv_qr_code"
+                        android:src="@mipmap/ic_launcher"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:gravity="bottom"
+                    android:padding="16dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_margin="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/profile_shape">
+
+                        <TextView
+                            android:visibility="gone"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/rittal_services"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:layout_gravity="center"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:gravity="center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:padding="8dp"
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/profile_user_name"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:id="@+id/user_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorPrimary"
+                                android:textStyle="bold"
+                                android:text=""
+                                android:layout_gravity="center"/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:padding="8dp"
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/profile_code"
+                                android:textStyle="bold"
+                                />
+
+                            <TextView
+                                android:id="@+id/user_code"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="10dp"
+                                android:gravity="end"
+                                android:text=""
+                                android:textColor="@color/colorPrimary"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:gravity="center"
+                            android:padding="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="0"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp">
+                        <Button
+                            android:visibility="visible"
+                            android:onClick="goToCashout"
+                            android:id="@+id/btn_cashOut"
+                            android:background="@drawable/ripple_icon"
+                            android:text="@string/cash_out"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="0"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp">
+                        <Button
+                            android:visibility="visible"
+
+                            android:id="@+id/ban_accountToCard"
+                            android:onClick="goToChargCard"
+                            android:background="@drawable/ripple_icon"
+                            android:text="@string/accountTocard"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="0"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp">
+                        <Button
+                            android:visibility="visible"
+
+                            android:onClick="goToAccountRecharge"
+                            android:id="@+id/btn_cardToAccount"
+                            android:background="@drawable/ripple_icon"
+                            android:text="@string/cardToaccount"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="0"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp">
+                        <Button
+                            android:visibility="visible"
+
+                            android:onClick="goToKnownGenerateVoucher"
+                            android:id="@+id/btn_knwonGenerateVoucher"
+                            android:background="@drawable/ripple_icon"
+                            android:text="@string/knwonGenerateVoucher"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="0"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp">
+                        <Button
+                            android:visibility="visible"
+                            android:onClick="goToKnownVoucherCashout"
+                            android:id="@+id/btn_voucherCashOut"
+                            android:background="@drawable/ripple_icon"
+                            android:text="@string/knownVoucherCashOut"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_weight="0"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="40dp">
+                        <Button
+                            android:id="@+id/btn_logout"
+                            android:background="@drawable/ripple_icon"
+                            android:text="@string/logout"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

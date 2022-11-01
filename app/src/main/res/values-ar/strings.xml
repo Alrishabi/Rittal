@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ريتاpay</string>
+
+
+    <string name="str_openimg">فتح الصورة</string>
+    <string name="str_scan">بحث عن الاجهزة</string>
+    <string name="str_printword">طباعة </string>
+    <string name="str_printword_desc">Print GBK, Unicode text encoding</string>
+    <string name="str_printimg">طباعة صورة</string>
+    <string name="str_printimg_desc">Select the picture to print</string>
+    <string name="str_printbarcode">one-dimensional code printing </string>
+    <string name="str_printbarcode_desc">dynamically create a dimensional code printing </string>
+    <string name="str_printqrcode">two-dimensional code printing </string>
+    <string name="str_printqrcode_desc">dynamically create 2D code printing </string>
+    <string name="str_printcmd">send printer instructions </string>
+    <string name="str_printcmd_desc">send a print instruction set other instructions </string>
+    <string name="str_device">الاجهزة</string>
+    <string name="str_scaning">جاري البحث</string>
+    <string name="str_unconnected">غير متصل!</string>
+    <string name="str_lose">فشل الاتصال!</string>
+    <string name="str_cannotcreatebar">failed to create a one-dimensional code </string>
+    <string name="str_connected">متصل</string>
+    <string name="str_disconnected">غير متصل ب</string>
+    <string name="str_connecting">جاري الاتصال ب</string>
+    <string name="str_scanover">إنتهى البحث</string>
+    <string name="str_printtext">str_printtext</string>
+    <string name="str_exit">تاكد من الخروج واغلاق الاجهزة</string>
+    <string name="str_autoprint">طباعه تلقائية</string>
+
+
+    <string name="str_printer_state">الحاله</string>
+    <string name="str_printer_lowpower">كهرباء ضعيفة</string>
+    <string name="str_printer_nopaper">لايوجد ورق</string>
+    <string name="str_printer_bufferfull">Buffer full</string>
+    <string name="str_printer_buffernull">Buffer null</string>
+    <string name="str_printer_hightemperature">High temperature</string>
+
+    <string name="str_custom_instruction">تعليمات</string>
+    <string name="button_send_instruction">إرسال</string>
+
+
+    <string name="language">اللغة</string>
+    <string name="accessories">إكسسوارات</string>
+    <string name="arabic">عربي</string>
+    <string name="english">English</string>
+
+    <string name="bluetooth_printer">طابعة بلوتوث</string>
+    <string name="usb_printer">USB طابعة</string>
+    <string name="S1000_printer">S1000 طابعة</string>
+    <string name="S1000_card_swipe">S1000 magnetic card swipe</string>
+    <string name="tap_her_to_add_new_card">إضغط هنا لإضافة بطاقة جديدة</string>
+    <string name="enter_card_name">أدخل إسم البطاقة</string>
+    <string name="card_name">إسم البطاقة</string>
+
+    <string name="enter_card_pan">أدخل رقم البطاقة</string>
+    <string name="card_pan">رقم البطاقة19 او 16 رقم</string>
+
+    <string name="enter_card_expiry_date">أدخل تاريخ الانتهاء(YYMM)</string>
+    <string name="enter_card_pin">أدخل رقم الانترنت السري</string>
+    <string name="card_expiry_date">تاريخ إنتهاء البطاقة</string>
+    <string name="select_color_title">إختار لون او بطاقة</string>
+    <string name="select_card_color">إختار لون البطاقة</string>
+    <string name="save">حفظ</string>
+    <string name="card_pin">رقم الانترنت السري</string>
+    <string name="inquiry">إستعلام</string>
+    <string name="clear_form">مسح الحقول</string>
+    <string name="have_otp">لديك رقم تحقق</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="generate_otp">طلب رمز تحقق</string>
+    <string name="generate">طلب</string>
+    <string name="have_not_otp">ليس لدي رقم تحقق</string>
+    <string name="phone_ipin">رقم الانترنت السري</string>
+    <string name="confirm_ipin">تاكدي رقم الانترنت السري</string>
+    <string name="otp">رمز تحقق</string>
+    <string name="generate_ipin">إنشاء رقم إنترنت سري</string>
+    <string name="generate_otp_hint">رمز التحقق سيرسل على رقم هاتفك المرتبط بالبطاقة,قم بإستخدامة لإنشاء رقم الانترنت السري</string>
+    <string name="generate_ipin_hint">قم بإدخال رمز التحقق في المكان المخصص لإنشاء رقم الانترنت السري</string>
+    <string name="service_provider">مقدم الخدمة</string>
+    <string name="amount">المبلغ</string>
+    <string name="title_top_up">شحن رصيد هاتف</string>
+    <string name="title_bill_payment">دفع فاتورة الهاتف</string>
+    <string name="title_bill_iquery">إستعلام عن فاتورة الهاتف</string>
+    <string name="title_generate_voucher">إرسال حواله</string>
+    <string name="other_card_pan">رقم البطاقة المحول لها</string>
+    <string name="title_card_to_card_transfer">التحويل من بطاقة لبطاقه</string>
+    <string name="card_pan_length">عذرا..رقم البطاقة يجب ان يحتوي على 16 او 19 رقم</string>
+    <string name="card_expiry_date_length">عذرا..تاريخ الانتهاء يحتوي على 4 ارقام</string>
+    <string name="card_ipin_lengh">عذرا..رقم الانترنت السري يحتوي على 4 ارقام</string>
+    <string name="card_service_provider_unselected">عذرا..قم بإختيار مقدم خدمة</string>
+    <string name="phone_number_lenght">عذرا..رقم الهاتف يحتوي على ١٢ ارقام</string>
+    <string name="zain">ZAIN</string>
+    <string name="mtn">MTN</string>
+    <string name="sudani">SUDANI</string>
+    <string name="please_wait">الرجاء الإنتطار…</string>
+    <string name="sdg_hint"><b> SDG</b> </string>
+    <string name="counter_number">رقم العداد</string>
+    <string name="use_one_of_saved_cards">إستخدم بطاقة محفوظة</string>
+    <string name="use_ne_of_saved_cards">إستخدم بطاقة محفوظة</string>
+    <string name="seater_numner">رقم الجلوس</string>
+    <string name="acception_type">نوع القبول</string>
+    <string name="the_course">المساق</string>
+    <string name="generate_vucher">إرسال حوالة</string>
+    <string name="balance_inquery">إستعلام عن رصيد</string>
+    <string name="invoice_number">رقم الفاتورة</string>
+    <string name="e15">إيصال  15  الالكتروني</string>
+    <string name="high_education">التقديم للتعليم العالي</string>
+    <string name="apply">تطبيق</string>
+    <string name="electrivity">شراء كهرباء</string>
+    <string name="generate_voucher">ارسال حوالة</string>
+    <string name="purchase">شراء</string>
+    <string name="my_card">بطاقاتي</string>
+
+    <string name="phone_number_lenght_otp">عذرا رقم الهاتف يجب ان يحتوي علي 12 خانات</string>
+    <string name="enter_phone_number">عذرا ادخل رقم الهاتف</string>
+
+    <string-array name="language_options">
+        <item>عربي</item>
+        <item>إنجليزي</item>
+    </string-array>
+
+    <string name="enter_card_pin_confirm">عذرا ادخل التحقق من رقم الانترنت السري الجديد</string>
+    <string name="enter_otp">عذرا ادخل رقم التحقق</string>
+    <string name="card_ipin_confirm_lengh">عذرا رقم التحقق من رقم الانترنت السري يجب ان يحتوي علي 4 خانات</string>
+    <string name="card_otp_lengh">عذرا رقم الحقق يجب ان يحتوي علي 4  خانات</string>
+    <string name="res_dae"><b>التاريخ:</b></string>
+
+    <string name="enter_other_card_pan">عذرا ادخل رقم البطاقة المحول لها</string>
+    <string name="enter_amount">عذرا ادخل المبلغ</string>
+    <string name="transfer">تحويل</string>
+    <string name="just_inquiry">استعلم فقط</string>
+    <string name="invoice_length">عذرا رقم الفاتورة يجب ان يحتوي علي ١٨ خانه</string>
+    <string name="enter_invoice_number">عذرا ادخل رقم الفاتورة</string>
+    <string name="student_name"> اسم الطالب(إنجليزي)</string>
+    <string name="res_pan"><b>البطاقة :</b></string>
+    <string name="res_message"><b>رسالة الاستجابة:</b></string>
+    <string name="res_code"><b>رمز الاستجابة:</b></string>
+    <string name="res_amount"><b>المبلغ:</b></string>
+    <string name="res_fee"><b>عمولة المحول:</b></string>
+    <string name="res_last_invoice_date"><b>تاريخ اخر فاتورة :</b></string>
+    <string name="res_unbill_amount"><b>القيمة الغير مدفوعة :</b></string>
+    <string name="res_billed_amount"><b>القيمة المدفوعة :</b></string>
+    <string name="res_total_bill_amoun"><b>اجمالي الفاتورة :</b></string>
+    <string name="res_contract"><b>رقم العقد :</b></string>
+    <string name="res_phone"><b>رقم الهاتف :</b></string>
+
+    <string name="res_subscriber_id"><b>رقم المشاركة :</b></string>
+    <string name="res_bill_amount"><b>قيمة الفاتورة :</b></string>
+    <string name="select_provider">اختار مقدم الخدمة</string>
+    <string name="res_to_card"><b>بطاقة المستفيد :</b></string>
+    <string name="res_operator"><b>مقدم الخدمة :</b></string>
+    <string name="enter_meter_number">عذرا ادخل رقم العداد</string>
+    <string name="res_voucher_number"><b>رقم الحوالة :</b></string>
+    <string name="res_voucher_code"><b>رمز الحوالة :</b></string>
+
+    <string name="res_unit_name"><b>اسم الوحدة :</b></string>
+    <string name="res_service_name"><b>اسم الخدمة :</b></string>
+    <string name="res_invoice_expiry_date"><b>تاريخ صلاحية الايصال :</b></string>
+    <string name="res_due_amount"><b>المبلغ المتبقي :</b></string>
+    <string name="res_invoice_status"><b>حالة الفاتورة :</b></string>
+    <string name="res_payer_name"><b>اسم المستفيد :</b></string>
+    <string name="res_reference_id"><b>مرجع الفاتورة :</b></string>
+    <string name="res_receipt_number"><b>رقم الايصال :</b></string>
+
+    <string name="title_e15">ايصال 15 الالكتروني</string>
+    <string name="please_use_249_to_start_phone_number">رجاء استخدم 249 لبداية رقم الهاتف</string>
+    <string name="use_249_to_start_phone_number">استخدم 249 لبداية رقم الهاتف</string>
+    <string name="e15_phone_number_lenght">عذرا رقم الهاتف يجب ان يحتوي علي 12 خانه</string>
+
+    <string name="sudanese_certificate">الشهادة السودانية</string>
+    <string name="arab_certificate">الشهادة العربية</string>
+    <string name="certification_type">نوع الشهادة</string>
+    <string name="enter_seater_number">عذرا ادخل رقم الجلوس</string>
+    <string name="enter_student_name">عذرا ادخل اسم الطالب</string>
+
+
+    <string name="canceled_invoice">آلغيت المعاملة</string>
+    <string name="new_invoice">المعاملة قيد التنفيذ</string>
+    <string name="paid_invoice">المعاملة مدفوعة</string>
+    <string name="user_name">اسم المستخدم</string>
+    <string name="user_password">كلمة المرور</string>
+    <string name="login">دخول</string>
+    <string name="confirm_user_password">تاكيد كلمة المرور</string>
+    <string name="password_not_match">عذرا كلمة المرور غير متطابقة</string>
+    <string name="please_enter_user_name">رجاء ادخل اسم المستخدم</string>
+    <string name="please_enter_password">رجاء ادخل كلمة المرور</string>
+    <string name="user_name_or_password_was_empty">عذرآ اسم المستخدم او كلمة المرور خاليه</string>
+    <string name="user_name_or_password_was_incorect">عذراً اسم المستخدم او كلمة المرور غير صحيحه</string>
+    <string name="error_in_data_processing">عذراً خطأ في معالجة البيانات</string>
+    <string name="error_on_network_connection">عذراً خطأ في الاتصال بالشبكة</string>
+    <string name="title_rittal_account">حسابي</string>
+    <string name="create_new_account">إنشاء حساب جديد</string>
+    <string name="report">التقارير</string>
+    <string name="hint_balance_inquiry">يمكنك الاستعلام عن رصيد بطاقاتك المصرفية.</string>
+    <string name="hint_bill_iquery">يمكن الاستعلام عن فاتورة هاتفك.</string>
+    <string name="hint_bill_payment">يمكنك دفع فاتورة هاتفك. </string>
+    <string name="hint_card_to_card_transfer">يمكنك تحويل الامول من بطاقة الي بطاقة</string>
+    <string name="hint_e15">استعلم عن ايصال 15 الحكومي و ادفع قيمته.</string>
+    <string name="title_high_education">التعليم العالي</string>
+    <string name="hint_education">يمكن التقديم للتعليم العالي بالشهادة السودانية او الشهادة العربية.</string>
+    <string name="hint_electricity">يمكنك شراء الكهرباء لمنزلك.</string>
+    <string name="hint_generate_voucher">ارسل مبالغ مالية من بطاقتك المصرفية</string>
+    <string name="hint_top_up">يمكنك شراء رصيد لهاتفك.</string>
+
+    <string name="selec_card">اختار البطاقة</string>
+    <string name="delete">حذف</string>
+    <string name="full_name">الاسم الكامل</string>
+    <string name="please_enter_full_name">رجاء ادخل الاسم الكامل</string>
+    <string name="please_enter_phone">رجاء ادخل رقم الهاتف</string>
+    <string name="please_enter_confirm_password">رجاء ادخل التحقق من كلمة المرور</string>
+    <string name="card_layout">إستخدم واجهة ريتال للبطاقات</string>
+    <string name="phone_number_was_existing_befor">عذرا رقم الهاتف مستخدم مسبقا</string>
+    <string name="user_name_was_existing_befor">عذرا اسم المستخدم موجود مسبقا</string>
+    <string name="some_thing_error_contact_administrator">الرجاء الاتصال بخدمات العملاء 2955</string>
+    <string name="profile_user_name">الإسم الكامل :</string>
+    <string name="profile_code">الكود :</string>
+    <string name="home">الرئيسية</string>
+    <string name="registration">تسجيل</string>
+    <string name="setting">الاعدادات</string>
+    <string name="add_card">اضافة بطاقة جديدة</string>
+    <string name="logout">تسجيل خروج </string>
+    <string name="hint_add_card">بيانات بطاقتك سيم حفظها بصورة امنة ومشفره في جهازك فقط</string>
+    <string name="res_meter_number"><b>رقم العداد:</b></string>
+    <string name="res_customer_name"><b>العميل:</b></string>
+    <string name="res_units"><b>الوحدات:</b></string>
+    <string name="res_token"><b>رمز التعبئه:</b></string>
+    <string name="res_purchase_amount"><b>مبلغ الشراء:</b></string>
+    <string name="res_rittal_fee"><b>عمولة ريتال :</b></string>
+    <string name="cancel">خروج</string>
+    <string name="successfully_trans">معاملة ناجحة</string>
+    <string name="failer_trans">معاملة فاشلة</string>
+    <string name="enter_card_name_length">عذرا إسم البطاقة يجب ان يحتوي علي ٤ خانات علي الاقل</string>
+    <string name="update">تحديث</string>
+    <string name="later">لاحقا</string>
+    <string name="please_update_to_last_version">تتوفر نسخة جديده,الرجاء التحديث للنسخه الاخيرة</string>
+    <string name="cancel_button">إلغاء</string>
+    <string name="your_ipin_generated">تم إنشاء رقم الانترنت السري بنجاح</string>
+    <string name="congratulations">مبروك!</string>
+    <string name="edit">تعديل</string>
+    <string name="are_u_sure_delete">هل انت متاكد؟</string>
+    <string name="update_card">تحديث معلومات البطاقة</string>
+    <string name="noInternetConnection">تاكد من إتصالك بالانترنت</string>
+    <string name="save_this_card">حفظ البطاقه</string>
+    <string name="no_thanks">لآ,شكرآ</string>
+    <string name="delete_card">مسح البطاقة!</string>
+    <string name="cash_out">صرف نقدية</string>
+    <string name="accountTocard">تحويل من الحساب للبطاقة</string>
+    <string name="cardToaccount">تحويل من البطاقة للحساب</string>
+    <string name="knwonGenerateVoucher">إرسال حوالة لشخص معلوم</string>
+    <string name="knownVoucherCashOut">إستلام حوالة لشخص معلوم</string>
+    <string name="rittal_services">خدمات ريتال</string>
+    <string name="cash_out_disc">يمكن الاستفادة من صرف النقدية من بطاقاتك او بطاقة أخرى</string>
+    <string name="recharge_card_disc">يمكنك شحن البطاقة من حساب ريتال</string>
+    <string name="recharge">تغذية</string>
+    <string name="recharge_card_title">تغذية البطاقة</string>
+    <string name="recharge_account_disc">يمكنك تغذية حسابك من جميع البطاقة المختلفة</string>
+    <string name="account_recharge">تغذية الحساب</string>
+    <string name="senderName">  إسم المرسل</string>
+    <string name="senderID_type">نوع هوية المرسل</string>
+    <string name="enter_sender_id_type"> ادخل نوع الهوية</string>
+    <string name="senderID">رقم هوية المرسل</string>
+    <string name="ID">رقم الهوية</string>
+    <string name="receiver_name">اسم المستلم</string>
+    <string name="receiverIdType">نوع هوية المستلم</string>
+    <string name="receiverId">رقم هوية المستلم</string>
+    <string name="receiver_phone">رقم هاتف المستلم</string>
+    <string name="send">إرسال</string>
+    <string name="enter_sender_name">أدخل إسم المرسل</string>
+    <string name="phone_sender">رقم هاتف المرسل</string>
+    <string name="_249">+249</string>
+    <string name="sender_info">بيانات المرسل</string>
+    <string name="receiver_info">بيانات المستلم</string>
+    <string name="enter_sender_id">أدخل رقم هوية المرسل</string>
+    <string name="enter_sender_number">أدخل رقم هاتف المرسل</string>
+    <string name="enter_receiver_name">ادخل اسم المستلم</string>
+    <string name="enter_receiver_id_type">ادخل نوع هوية المستلم</string>
+    <string name="enter_receiver_id">ادخل رقم هوية مستلم الحوالة</string>
+    <string name="enter_receiver_number">ادخل رقم هاتف المستلم</string>
+    <string name="recharge_account_title">شحن الحساب</string>
+    <string name="knownGenerateVoucher">إرسال حوالة معلومة</string>
+    <string name="enter_voucher_key">أدخل رقم الحوالة</string>
+    <string name="voucherKey10digits">رمز الحوالة السري 10 رقم</string>
+    <string name="res_sender_name"> <b>إسم المرسل :</b> </string>
+    <string name="res_sender_phone">هاتف المرسل :</string>
+    <string name="res_rece_name"> <b>إسم المستلم : </b> </string>
+    <string name="res_rece_phone">هاتف المستلم :</string>
+    <string name="known_voucher_cashout_disc">واجهة إستلام حوالة لشخص معلوم عن طريق رقم الحوالة وكود الحوالة</string>
+    <string name="voucher_num">رقم الحوالة</string>
+    <string name="cash_out_voucher">صرف الحوالة المعلومه</string>
+    <string name="known_generate_voucher_cashout">إستلام حوالة لشخص معلوم</string>
+    <string name="enter_voucher_num">أدخل رقم الحوالة</string>
+    <string name="enter_voucher_password">أدخل رقم الحوالة السري</string>
+    <string name="generate_voucher_known_disc">يمكنك اصدار حواله بمبالغ غير محدودة</string>
+    <string name="purchase_electricity"><b>شراء كهرباء</b></string>
+    <string name="inquiry_electricity">استعلام عن كهرباء</string>
+    <string name="print">طباعة</string>
+    <string name="copy_right">© ريتال تكنولوجي ٢٠١٩</string>
+    <string name="version">الاصدار</string>
+    <string name="address_label">العنوان</string>
+    <string name="address_text">الخرطوم، السوق المركزي \n شارع الشهيد مختار سليمان، مربع(34) عمارة باجعفر</string>
+    <string name="call_ceneter_label">خدمات العملاء</string>
+    <string name="about">عنا</string>
+
+    <string name="web_site">الموقع الالكتروني</string>
+    <string name="generate_ipin_to_use_app">"مرحبا عملائنا الكرام ، إستخدام بطاقتك المصرفيه يحتاج لرقم انترنت سري اذا لم يكن لديك اذهب الي إنشاء رقم الانترنت السري "</string>
+    <string name="notـsupported">غير مدعوم</string>
+
+    <string name="natonal_id">رقم وطني</string>
+    <string name="pasport">جواز سفر</string>
+    <string name="reset_pass">تغير كلمة المرور</string>
+    <string name="current_user_password">كلمة المرور الحالية</string>
+    <string name="forget_password">نسيت كلمة المرور؟</string>
+    <string name="share">مشاركة</string>
+    <string name="res_4_digits">أخر 4 ارقام :</string>
+    <string name="res_balance">الرصيد :</string>
+    <string name="conditions_and_terms">الشروط والاحكام</string>
+    <string name="terms_of_service">شروط الخدمة</string>
+    <string name="contract">عقد نقطة بيع تقديم خدمات الدفع الإلكترونى  أنه وبالخرطوم وفي هذا اليوم ..... من شهر .......... عام2019  أبرم هذا العقد بين طرفيه كل من: 1/ شركة ريتال تكنولجى (المحدودة ) وهى شركة محدودة المسئولية مسجلة بموجب قانون الشركات للعام 2015 برقم سجل ش:37401 وهى الطرف ألاول وتعرف فيما بعد ولأغراض هذا العقد بـالطرف الأول أو (ريتال)  2/السيد/ ....................................................................... ويعرف فيما بعد ولاغراض هذا العقد بالطرف الثاني أو (نقطة البيع) حسب السياق. التلفون------------------------------------------------العنوان:-------------------------------- تمهيد : حيث أن ريتال قامت بإعداد مركز بيانات متطور لإطلاق العديد من خدمات الدفع الإلكتروني ومن ثم قامت بتطوير الأنظمة والبرمجيات المتخصصة لتفي بحاجة تطبيقات الدفع الإلكتروني بأنواعها  المختلفة والتي تشمل في الوقت الحالي:- 1-\tالفواتير الإلكترونية لكهرباء الدفع المقدم مع الشركة السودانية لتوزيع الكهرباء. 2-\tالمحفظة الإلكترونية ،خدمة )ريتا ( PAY، وتعمل فى مجال تطبيقات الدفع الإلكتروني المجازة من قبل البنك المركزي علي أجهزة نقاط البيع والشبكة العنكبوتية عبر محول القيود القومي- بنك السودان المركزي - شركة الخدمات المصرفية الإلكترونية. 3-\tإصدار وتوزيع بطاقات المحفظة الإلكترونية مع البنوك التي يتم التعاقد معها من قبل الطرف الأول. 4-\tخدمات شركات الإتصالات والمصارف التي يتم التعاقد معها من قبل الطرف الأول . 5-\tأي خدمة أخري يتم طرحها من قبل الطرف الأول. و حيث أن ريتال قد قامت بإكمال المتطلبات الفنية والقانونية للخدمات المذكورة بعاليه وفقا لمطلوبات الجهات المالكة للخدمة وصولا لتوقيع عقود الخدمة . وحيث أن ريتال ترغب فى تعيين نقاط بيع مقتدرة تتوفر فيها الشروط المطلوبة لتقديم الخدمات المذكورة للجمهور.  وحيث أن الطرف الثانى وبما لديه من مقدرات مالية وفنية يرغب فى التعاقد مع ريتال بصفة نقطة بيع لتقديم الخدمات المذكورة بعاليه. فإن ذلك تم وفقاً للشروط الآتية: 1/ مقدمة: 1-\tيعتبر التمهيد أعلاه جزء لايتجزأ من هذا العقد. 2-\tتعتبر أى شهادات أو تصديقات أو مستندات أو رخص أو أى وثائق أخرى مطلوب تقديمها من أى الطرفين لأغراض تنفيذ هذا العقد جزءاً منه وتقرأ معه. 3-\tيعتبر هذا العقد هو المرجعية الوحيدة بين الطرفين ويلغي ماعداه من إتفاقات أو تفاهمات تكون قد تمت بين الطرفين كتابة أو شفاهة فى أى وقت سابق لإبرامه . 2/  نطاق العقد :  1-\tيغطى هذا العقد البرمجيات المطلقة من قبل ريتال فى  إطار خدمات الدفع المقدم ويشمل ذلك خدمة الكهرباء مع الشركة السودانية لتوزيع الكهرباء  2-\tيشمل ذلك البرمجيات المطلقة من قبل بنك السودان المركزى وشركة الخدمات المصرفية الإلكترونية EBS عبر المحول القومى . 3-\tيشمل ذلك البرمجيات المطلقة من قبل بنك السودان المركزى وشركة الخدمات المصرفية الإلكترونية EBS عبر منظومة الدفع بالموبايل . 4-\tيشمل البرمجيات المطلقة من قبل المصارف وفقا للإتفاقيات الموقعة مع شركة ريتال تكنولوجى وتشمل الوكالة المصرفية وبرمجيات الدفع الإلكترونى .  5-\tلايغطى هذا العقد بأى حال من الأحوال الأعمال الأخرى لدى نقطة البيع . 3/ إلتزامات ريتال : 1-\tتوفير كل المعينات التقنية اللازمة لإطلاق الخدمات مثل عمليات البرمجة اللازمة لتقديم الخدمة للجمهور وتدريب الطرف الثانى أو من ينوب عنه على إستخدام البرمجيات وإدارة البرامج الأساسية للتشغيل حسب متطلبات كل خدمة. 2-\t توفير مركز خدمة عملاء لتقديم الدعم الفني والمساندة ومد الطرف الثاني برقم الخدمة. 3-\t التنسيق مع الجهات مالكة الخدمة فيما يلي منازعات عملاء الطرف الثاني وفقا للنظام والآليات المعلنة من قبل الجهة مالكة الخدمة. 4-\t إدراج بيانات الطرف الثانى ضمن قاعدة بيانات شركة ريتال لتمكينه من تغذية وتتبع الأرصدة متي ما تطلبت الخدمة ذلك. 5-\t فى حالة تقديم خدمات جديدة من جانب ريتال ورغبة الطرف الثانى فى الإستفاده منها يتم الإتفاق عليها وتضاف كملحق لهذا العقد. 6-\tأخطار الطرف الثانى في حالة التوقف المبرمج للخدمة من قبل مقدم الخدمة أو الطرف الأول. 7-\tعمل الدعاية والإعلان للخدمات المطلقة من قبله.  4/إلتزامات الطرف الثانى : 1-\tالإلتزام وإلزام منسوبي  نقطة البيع التابعة له بكافة التوجيهات والضوابط وشروط تقديم الخدمة. 2-\tالإلتزام بعدم تقديم خدمات منافسة للخدمات المعلنة من قبل ريتال حتى ولو لم تكن من ضمن الخدمات المتعاقد عليها. 3-\t الإلتزام بتقديم بيانات مكتملة لنقطة البيع وفق ما تتطلبه ريتال وتحديث البيانات فى حالة تغيير موقع أو إغلاق أو تغيير ملكية نقطة البيع. 4-\tالإلتزام بتقديم الخدمة من خلال النقطة المعتمدة من قبل ريتال فقط. 5-\tالإلتزام بأن تتم المكاتبات بينه وريتال بخطاب رسمى أو عبر البريد الإلكترونى الخاص بريتال ( فقط ) . 6-\tالإلتزام بتقديم الخدمة وفقا للأسعار والمعايير والرسوم المعلنة من قبل الشركة.  7-\tالإلتزام بأخطار ريتال كتابة في حالة تغيير الموقع . 8-\tالإلتزام بأخطار ريتال  في حالة تغيير ملكية نقطة البيع مع مدها بصورة من الاوراق الثبوتية للمالك الجديد. 9-\tدفع الغرامات المطلوبة في حالة اساءه أستخدام الخدمة وعدم الإلتزام بتوفير معدات ومعينات ومطلوبات تقديم الخدمة حسب ما هو محدد من  قبل الجهة مالكة الخدمة  حيث تحسب الغرامة وفقا للضرر. 10-\t الإلتزام بالعمل داخل المنطقة الجغرافية التى تحددها ريتال حسب ماتراه مناسبا .  11-\t يلتزم الطرف الثاني بعدم السعى للحصول علي أو إستخدام الرقم السري للبطاقات ألمصرفية وبطاقات المحفظة الخاصة بالعملاء إطلاقا وفي حال عدم الإلتزام يطبق البند (9) أعلاه. 5/مدة وسريان العقد :  مدة هذا العقد عام تبدأ من تاريخ توقيع الطرفين ويجدد تلقائيا ما لم يخطر أي من الطرفين الطرف الآخر برغبته في إنهاء التعاقد قبل شهر من تأريخ نهاية المدة الأولى أو أى مدة لاحقة. 6/أحكام عامة : 1-\t يتحمل الطرف الثاني منفردا تكلفة معينات تقديم الخدمة من موقع وأجهزة وأثاث وكهرباء.  2-\t يتحمل الطرف الثانى   منفردا اى خسارة مالية أو مسئولية تترتب على خطأ أو أى إهمال من قبله أو من قبل منسوبيه. 3-\t يحق للطرف الاول التعديل والإضافة فى هذا العقد من حيث إضافة أوإلغاء الخدمات أو تحديث متعلقات الخدمات وفقا لما يرده من الجهات مالكة الخدمات . 4-\tيحق للطرف الأول فسخ هذا العقد وإيقاف الخدمة فى حالة إخلال الطرف الثانى بأى من بنود وملحقات العقد وتسوية كل المتعلقات فى فترة أقصاها شهر من تاريخ الفسخ أو الإيقاف. 5-\tتنحصر وكالة الطرف الثانى لريتال فقط فى الخدمة/الخدمات محل هذا العقد وبالتالى لا تعطى الطرف الثانى الحق فى تمثيل الطرف ألأول أو التعاقد بإسمه أو القيام بأى تصرفات قانونية نيابة عنه خلاف تقديم الخدمة محال العقد. 6-\tريتال غير مسؤولة عن اي مطالبات مالية او شكاوي او أى مراجعات تخص الطرف الثاني بعد مرور شهرين. 7-\tوفي حالة عدم إلتزام الطرف الثانى بالتعرفة المحددة من قبل ريتال، يكون لريتال الحق في اتخاذ ماتراه مناسبا من أجراءات بما فى ذلك فسخ العقد مع الرجوع على الطرف الثانى بالتعويضات المناسبة. 8-\t 7/ السرية : يعتبر هذا العقد وكافة المعاملات والإتصالات والمكاتبات التى تتم بموجبه وأى مستندات يتم تبادلها بين الطرفين أو بين أى طرف وجهة أخرى فيما يتعلق بتنفيذ هذا العقد أو أى معلومات وصلت لآى من طرفيه بسبب تنفيذه سرية ولا يجوز لأى من طرفيه أو أى من منسوبيهما فى أى وقت من الأوقات إفشاؤها لأى شخص ثالث إلأ بموافقة الطرف الأخر الكتابية المسبقة أو وفقاً لقانون سارى المفعول.</string>
+    <string name="answer">الإجابة</string>
+    <string name="security_qu">سؤال الامان</string>
+    <string name="select_question">-إختر سؤال-</string>
+    <string name="best_friend">إسم افضل صديق لديك؟</string>
+    <string name="please_select_quesition">الرجاء إختيار سؤال الامان</string>
+    <string name="please_enter_answer">الرجاء الإجابة على سؤال الامان</string>
+    <string name="please_check_passwords">كلمات المرور التي ادخاتها غير متطابقة</string>
+    <string name="password_eate_characters">كلمة المرور يجب ان لا تقل عن ثمانية احرف</string>
+    <string name="at_lest_8">على الاقل ثمانية أحرف</string>
+    <string name="please_read_terms">الرجاء قراءة شروط الخدمة اولا</string>
+    <string name="please_enter_valid_phone">عذرا رقم الهاتف يجب ان يحتوي علي ١٠ خانات</string>
+    <string name="pass_reset_successfully">تم تغير كلمة المرور بنجاح</string>
+    <string name="error_tryagain">خطاء..حاول مرة أخرى</string>
+    <string name="your_answer_incurrect">إجابة سؤال الامان غير صحيحه</string>
+    <string name="user_not_found">إسم المستخدم غير موجود</string>
+    <string name="electricity_fee">من البطاقة عمولة 3 جنية</string>
+    <string name="electricity_account_fee">من حساب ريتال عمولة 2 جنية</string>
+    <string name="card_to_card_fee">عمولة 1 جنية</string>
+    <string name="hint_e15_fee">عمولة 1 جنية</string>
+    <string name="generate_voucher_fee">عمولة 1 جنية+0.004% من المبلغ</string>
+    <string name="cash_out_fee">عمولة 10 جنية لمبلغ اقل من 501 وعمولة 5% لمبلغ اكبر من 500</string>
+    <string name="recharge_account_fee">عمولة 4جنية</string>
+    <string name="recharge_card_fee">عمولة 5 جنية</string>
+    <string name="generate_voucher_known_fee">عمولة 1 جنية و 0.004%</string>
+    <string name="known_voucher_cashout_fee">عمولة 12%</string>
+    <string name="user_manual">دليل المستخدم للمساعده في إستخدام تطبيق ريتال</string>
+    <string name="user_manual_lable">دليل المستخدم</string>
+    <string name="this_version_is_out_of_date_you_must_update_it_immediately">هذه النسخة غير صالحة الرجاء التحديث للنسخة الجديدة</string>
+    <string name="old_password">كلمة مرور القديمة؟</string>
+    <string name="qustion">السؤال</string>
+    <string name="sign_up">تسجيل</string>
+    <string name="favourite">القائمة المفضلة</string>
+    <string name="tap_her_to_add_new_contact">إضغط هنا لإضافة مستفيد جديد</string>
+    <string name="ok">حسنآ</string>
+    <string name="k_w">K\W</string>
+    <string name="res_last4_digits"><b>أخر 4 ارقام:</b></string>
+     <string name="res_meter_fees">رسوم العداد:</string>
+    <string name="special_payment">دفع خاص</string>
+
+
+
+    <string-array name="rittal_app_services">
+        <item>إنشاء رقم الانترنت السري\
+            هو الرقم السري المطلوب للاستفاده من جميع الخدمات المقدمة من قبل التطبيق\
+مقدم بواسطة شركة الخدمات المصرفية الالكترونية السودانية\
+عمولة 0
+        </item>
+        <item>إستعلام عن الرصيد\
+        تمكنك هذه الخدمة من الاستعلام عن رصيد حسابك البنكي وحساب ريتال\
+مقدم بواسطة شركة الخدمات المصرفيةالالكترونية السودانية وشركة ريتال\
+عمولة 0
+</item>
+        <item>إضافة بطاقة\
+        تمكنك هذه الخدمة من حفظ البطاقات التي تقوم باستخدامها دائما لتسهيل وتسريع عملية الادخال\
+مقدمة بواسطة شركة ريتال\
+            عمولة 0
+</item>
+        <item>حسابي\
+        يمكنك من إدارة حساب ريتال والاستفادة من الخدمات المقدمة داخل الحساب "تغذية حساب ريتال, تغذية بطاقة مصرفية"
+مقدمة بواسطة شركة ريتال
+</item>
+        <item>دفع فواتير\
+        تمكنك هذة الخدمه من دفع فواتير الهاتف لكل الشبكات
+مقدم بواسطة شركةريتال \.
+عمولة 0
+</item>
+        <item>الكهرباء\
+        يمكنك شراء الكهرباء من البطاقة او الحساب
+مقدمة بواسطة شركة ريتال\
+عمولة 2 جنية (من حساب ريتال)\
+عمولة 3 جنية (من البطاقة)
+</item>
+        <item>تحويل من بطاقة لبطاقة\
+        يمكنك التحويل بين البطاقات البنكية المختلفة\
+مقدم بواسطة شركة الخدمات المصرفية الالكترونية السودانية\
+عمولة 1 جنية
+</item>
+        <item>شحن الرصيد\
+            تمكنك من شحن رصيد الهاتف كل الشبكات \
+مقدم بواسطة شركة الخدمات المصرفية الالكترونية السودانية\
+عمولة 0
+        </item>
+        <item>التعليم العالي\
+         تمكنك خدمة التعليم العالي من سداد رسوم استمارة التقديم للجامعات\
+مقدم بواسطة شركة الخدمات المصرفية الالكترونية السودانية\
+عمولة
+</item>
+        <item>اورنيك 15\
+        يمكن تسديد جميع الرسوم الحكومية او الاستعلام عن اي إيصال حكومي\
+مقدم بواسطة شركة ريتال\
+عمولة 1 جنية
+</item>
+        <item>إستعلام عن فواتير\
+        يمكن الاستعلام عن فاتورة الهاتف لكل الشبكات\
+مقدم بواسطة شركة الخدمات المصرفية الالكترونية السودانية\
+عمولة 0 جنية
+</item>
+        <item>إرسال حوالة\
+        هي عملية ارسال مبلغ لشخص لا يملك حساب مصرفي او بطاقة الكترونية\
+مقدم بواسطة شركة الخدمات المصرفية الالكترونية السودانية.\
+عمولة 1 جنية\
+عمولة 0.004% جنية
+</item>
+        <item>صرف نقدية\
+        هي عملية صرف مبلغ معين لشخص لديه بطاقة مصرفية ,يتم سحب المبلغ المراد صرفه من البطاقة لحساب نقطة البيع \
+عمولة 10 جنية في حالة المبلغ اقل من 500 جنية\
+5% المبلغ اكثر من 500 جنية\
+            مقدمة بواسطة شركة ريتال
+</item>
+        <item>شحن الحساب\
+
+            يمكنك شحن حساب ريتال من اي بطاقة مصرفية.\
+            مقدمة بواسطة شركة ريتال\
+عمولة  4جنية
+</item>
+        <item>شحن البطاقة\
+        شحن البطاقة
+يمكن تغذية اي بطاقة مصرفية من حساب ريتال\
+مقدمة بواسطة شركة ريتال\
+عمولة 6 جنية
+</item>
+        <item>إرسال حوالة معلومة\
+هي عملية ارسال مبلغ غير محدد السقف لاي شخص لا يملك حساب مصرفي او بطاقة إلكترونية يجب حفظ بيانات الحوالة جيدا الشركة غير مسؤولة عن ضياع بيانات الاستلام\
+مقدم بواسطة شركة ريتال\
+عمولة 1 جنية و 0.004%
+</item>
+        <item>صرف حوالة معلومة\
+        هي عملية صرف مبلغ الحوالة المعلومة من اي نقطة بيع لصالح حساب النقطة بواسطة بيانات المستلم ورقم الحوالة وكلمة السر \
+مقدم بواسطة ريتال
+عمولة 12%
+</item>
+    </string-array>
+
+
+
+    <string name="res_water_fees"><b>رسوم المياه:</b>  </string>
+    <string name="res_operater_message">رسالة المشغل:</string>
+    <string name="res_net_amount">رسوم الشبكة:</string>
+    <string name="res_account_number">رقم الحساب:</string>
+    <string name="hint_special_payment">دفع خاص</string>
+    <string name="provider_id">الرقم التعريفي للمستفيد:</string>
+    <string name="res_form_no">رقم الاستمارة:</string>
+    <string name="studant_name">اسم الطالب:</string>
+    <string name="pay">دفع</string>
+    <string name="edu_form">استمارة تقديم للتعليم العالي</string>
+    <string name="set_number">رقم الجلوس</string>
+    <string name="res_invoice_num">رقم الفاتورة :</string>
+    <string name="continues">متابعة</string>
+    <string name="rittal_account_not_working_now">عذرا حساب ريتال خارج الخدمه حاليا</string>
+    <string name="login_first">عذرا قم بتسجيل الدخول لحساب ريتال ثم حاول مرة اخرى</string>
+    <string name="wellcome">مرحبا ،</string>
+    <string name="registration_successfully">تم التسجيل بنجاج</string>
+    <string name="enter_voucher_number">عذرا ، الرجاء ادخال رقم الحوالة</string>
+    <string name="voucher_number_length">عذراً ، رقم الحوالة يجب ان يحتوي علي ١٠ ارقام علي الاقل</string>
+    <string name="are_you_invited">هل تمت دعوتك بواسطة شخص اخر ؟</string>
+    <string name="invitation_code">رمز الدعوة</string>
+    <string name="show_pass_hint" >إظهار كلمة المرور</string>
+    <string name="hide_pass_hint">إخفاء كلمة المرور</string>
+    <string name="res_unit_price"><b>سعر الوحدات :</b></string>
+    <string name="soon">قريبآ..</string>
+    <string name="save_card">حفظ البطاقه</string>
+    <string name="are_u_sure">هل انت متاكد من رقم البطاقه؟</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="are_u_sure_of_phone_num">هل انت متاكد من رقم الهاتف؟</string>
+    <string name="are_u_sure_of_meter_num">هل انت متاكد من رقم العداد؟</string>
+    <string name="please_write_the_invitation_code">الرجاء إدخال رمز الدعوة!</string>
+    <string name="res_meter_arrear"><b>رسوم العداد :</b> </string>
+    <string name="card_didnot_saved">ناسف,لم يتم حفظ البطاقة بنجاح</string>
+    <string name="connect_success">تم الاقتران بنجاح</string>
+    <string name="card_saved">مبروك,تم حفظ البطاقة بنجاح</string>
+    <string name="mode_bt">طابعة بلوتوث</string>
+    <string name="beneficiary_list">قائمة المستفيدين</string>
+    <string name="card_update_successfully">تم تحديث البطاقة بنجاح</string>
+    <string name="card_did_not_update_successfully">ناسف,لم يتم تحديث بيانات البطاقة بنجاح</string>
+    <string name="start_with_zero">09 او 01</string>
+    <string name="check_the_invitaion_code">تاكد من رمز الدعوة الذي أدخلتة!</string>
+    <string name="full_name_atleast">الاسم الكامل يجب ان يحتوى على الاقل ثلاثة اسماء!</string>
+    <string name="security_qu_check">يجب إختيار سؤال أمان!</string>
+    <string name="answer_check">قم بكتابة إجابة سؤال الامان!</string>
+    <string name="agree_with_condtion">يجب الموافقة على شروط الخدمة!</string>
+    <string name="fill_invition_code">قم بملأ رمز الدعوة!</string>
+    <string name="beneficiary_name">Beneficiary name</string>
+    <string name="enter_beneficiary_name">Enter Beneficiary name</string>
+    <string name="beneficiary_type">Beneficiary type</string>
+    <string name="beneficiary_number">Beneficiary number</string>
+    <string name="enter_beneficiary_number">Enter beneficiary number</string>
+    <string name="add_beneficiary">add_beneficiary</string>
+
+</resources>

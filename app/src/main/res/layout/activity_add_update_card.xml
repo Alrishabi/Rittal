@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sd.rittal.app.activities.AddUpdateCard">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+        <LinearLayout
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shadow_shape">
+            <TextView
+                android:visibility="gone"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold|italic"
+                android:textSize="18sp"
+                android:text="Add New Card"
+                />
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:text="@string/hint_add_card"
+                android:layout_marginBottom="16dp"
+                />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="@dimen/activity_padding">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp">
+
+                        <EditText
+                            android:id="@+id/et_card_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="@dimen/margin_edit_text"
+                            android:paddingStart="@dimen/padding_edit_text_left_right"
+                            android:lines="1"
+                            android:paddingEnd="@dimen/padding_edit_text_left_right"
+                            android:background="@drawable/border_edit_text"
+                            android:hint="@string/enter_card_name"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/padding_text_view_left_right"
+                            android:layout_marginEnd="@dimen/padding_text_view_left_right"
+                            android:layout_marginTop="@dimen/margin_text_view"
+                            android:background="@drawable/label_shape"
+                            android:paddingLeft="2dp"
+                            android:paddingRight="2dp"
+                            android:text="@string/card_name"
+                            android:textStyle="bold|italic"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp">
+
+                        <EditText
+                            android:id="@+id/et_card_pan"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:inputType="number"
+                            android:lines="1"
+                            android:maxLength="19"
+                            android:gravity="center"
+                            android:layout_marginTop="@dimen/margin_edit_text"
+                            android:paddingStart="@dimen/padding_edit_text_left_right"
+                            android:paddingEnd="@dimen/padding_edit_text_left_right"
+                            android:background="@drawable/border_edit_text"
+                            android:hint="@string/enter_card_pan"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/padding_text_view_left_right"
+                            android:layout_marginEnd="@dimen/padding_text_view_left_right"
+                            android:layout_marginTop="@dimen/margin_text_view"
+                            android:background="@drawable/label_shape"
+                            android:paddingLeft="2dp"
+                            android:paddingRight="2dp"
+                            android:text="@string/card_pan"
+                            android:textStyle="bold|italic"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp">
+
+                        <EditText
+                            android:id="@+id/et_card_expiry_date"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false"
+                            android:maxLength="4"
+                            android:gravity="center"
+                            android:lines="1"
+                            android:layout_marginTop="@dimen/margin_edit_text"
+                            android:paddingStart="@dimen/padding_edit_text_left_right"
+                            android:paddingEnd="@dimen/padding_edit_text_left_right"
+                            android:background="@drawable/border_edit_text"
+                            android:hint="@string/enter_card_expiry_date"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/padding_text_view_left_right"
+                            android:layout_marginEnd="@dimen/padding_text_view_left_right"
+                            android:layout_marginTop="@dimen/margin_text_view"
+                            android:background="@drawable/label_shape"
+                            android:paddingLeft="2dp"
+                            android:paddingRight="2dp"
+                            android:text="@string/card_expiry_date"
+                            android:textStyle="bold|italic"/>
+                    </RelativeLayout>
+                    <LinearLayout
+                        android:padding="@dimen/activity_padding"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/select_card_color"
+                            android:textSize="16sp"
+                            android:textStyle="bold|italic"/>
+                        <LinearLayout
+                            android:id="@+id/layout_selected_color"
+                            android:onClick="showColorPicker"
+                            android:layout_weight="0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:backgroundTint="@color/blue_light"
+                            android:background="@drawable/shape_selected_color"
+                            android:orientation="horizontal"></LinearLayout>
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#CACACA"></View>
+                    <Button
+                        android:id="@+id/btn_add_update"
+                        android:layout_marginTop="30dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/save"
+                        android:textColor="@color/white"
+                        android:background="@drawable/ripple_effect"/>
+                    <LinearLayout
+                        android:paddingTop="@dimen/activity_padding"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="end"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/clear_form"
+                            android:textColor="@color/flamingo"
+                            android:textSize="16sp"
+                            android:textStyle="bold|italic"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
